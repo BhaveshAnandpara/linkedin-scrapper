@@ -1,0 +1,3025 @@
+{
+  "elements": [
+    {
+      "profileVideoPreview": {
+        "paging": {
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon429038699",
+        "elements": []
+      },
+      "profileTreasuryMediaProfile": {
+        "paging": {
+          "total": 2,
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+        "elements": [
+          {
+            "multiLocaleTitle": {
+              "en_US": "Resume_REDACTED_REDACTED.docx"
+            },
+            "data": {
+              "NativeDocument": {
+                "transcribedDocumentUrl": "https://example.com/redacted",
+                "manifestUrlExpiresAt": 1788645600000,
+                "title": "Resume_REDACTED_REDACTED.docx",
+                "urn": "urn:li:digitalmediaAsset:D562DAQEnRNEvcIHUjg",
+                "manifestUrl": "https://example.com/redacted",
+                "scanRequiredForDownload": false,
+                "totalPageCount": 1,
+                "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.Document",
+                "coverPages": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.DocumentPages",
+                  "pagesPerResolution": [
+                    {
+                      "width": 374,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.DocumentResolutionPages",
+                      "imageUrls": [
+                        "https://example.com/redacted"
+                      ],
+                      "height": 484
+                    },
+                    {
+                      "width": 620,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.DocumentResolutionPages",
+                      "imageUrls": [
+                        "https://example.com/redacted"
+                      ],
+                      "height": 802
+                    },
+                    {
+                      "width": 994,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.DocumentResolutionPages",
+                      "imageUrls": [
+                        "https://example.com/redacted"
+                      ],
+                      "height": 1287
+                    },
+                    {
+                      "width": 1487,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.DocumentResolutionPages",
+                      "imageUrls": [
+                        "https://example.com/redacted"
+                      ],
+                      "height": 1925
+                    }
+                  ],
+                  "transcripts": []
+                },
+                "transcribedDocumentUrlExpiresAt": 1788645600000
+              }
+            },
+            "entityUrn": "urn:li:fakeEntity:1-1",
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMedia",
+            "title": "Resume_REDACTED_REDACTED.docx",
+            "previewImage": {
+              "attributes": [
+                {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.image.ImageAttribute",
+                  "detailDataUnion": {
+                    "vectorImage": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                      "rootUrl": "https://example.com/redacted",
+                      "artifacts": [
+                        {
+                          "width": 994,
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                          "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                          "expiresAt": 1788645600000,
+                          "height": 1287
+                        },
+                        {
+                          "width": 620,
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                          "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                          "expiresAt": 1788645600000,
+                          "height": 802
+                        },
+                        {
+                          "width": 1487,
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                          "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                          "expiresAt": 1788645600000,
+                          "height": 1925
+                        },
+                        {
+                          "width": 374,
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                          "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                          "expiresAt": 1788645600000,
+                          "height": 484
+                        }
+                      ]
+                    }
+                  }
+                }
+              ],
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.image.ImageViewModel"
+            }
+          }
+        ]
+      },
+      "objectUrn": "urn:li:fakeEntity:1-2",
+      "multiLocaleLastName": {
+        "en_US": "Person1"
+      },
+      "multiLocaleFirstNamePronunciationHint": {},
+      "profileOrganizations": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileOrganizationsInjection",
+        "elements": []
+      },
+      "multiLocaleLastNamePronunciationHint": {},
+      "profileEducations": {
+        "paging": {
+          "total": 1,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileEducationsInjection",
+        "elements": [
+          {
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 4,
+                "year": 2020
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 8,
+                "year": 2024
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-3"
+            },
+            "profileTreasuryMediaEducation": {
+              "paging": {
+                "total": 0,
+                "count": 10,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+              "elements": []
+            },
+            "description": "I'm currently a B.Tech student in Computer Engineering at Bajaj Institute of Technology, Wardha. Beyond just hitting the books, I'm all about getting involved. You'll often find me jumping into various clubs and events, not just to pass the time but because I genuinely enjoy being a part of the action.\n\nWhat makes it even better is the connections I've made along the way. I've managed to build some pretty solid bonds with both seniors and juniors. It's not just about textbooks; these relationships have added a lot of value to my college experience.\n\nBeing part of these clubs and events has opened my eyes to different sides of learning. It's not just about lectures and exams; it's about taking what you've learned and applying it to real-world scenarios.\n\nI'm here to dive into opportunities, build connections, and make the most out of my academic journey. Because after all, it's not just about the degree; it's about the experiences that come with it.",
+            "entityUrn": "urn:li:fakeEntity:1-4",
+            "schoolName": "Example University A",
+            "fieldOfStudy": "Computer Engineering ",
+            "degreeName": "Bachelor's ",
+            "multiLocaleGrade": {
+              "en_US": "8.57"
+            },
+            "multiLocaleSchoolName": {
+              "en_US": "Example University B"
+            },
+            "multiLocaleActivities": {
+              "en_US": "President at Newton School Coding Club"
+            },
+            "activities": "President at Newton School Coding Club",
+            "grade": "8.57",
+            "multiLocaleFieldOfStudy": {
+              "en_US": "Computer Engineering "
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileEducation",
+            "multiLocaleDescription": {
+              "en_US": "I'm currently a B.Tech student in Computer Engineering at Bajaj Institute of Technology, Wardha. Beyond just hitting the books, I'm all about getting involved. You'll often find me jumping into various clubs and events, not just to pass the time but because I genuinely enjoy being a part of the action.\n\nWhat makes it even better is the connections I've made along the way. I've managed to build some pretty solid bonds with both seniors and juniors. It's not just about textbooks; these relationships have added a lot of value to my college experience.\n\nBeing part of these clubs and events has opened my eyes to different sides of learning. It's not just about lectures and exams; it's about taking what you've learned and applying it to real-world scenarios.\n\nI'm here to dive into opportunities, build connections, and make the most out of my academic journey. Because after all, it's not just about the degree; it's about the experiences that come with it."
+            },
+            "multiLocaleDegreeName": {
+              "en_US": "Bachelor's "
+            }
+          }
+        ]
+      },
+      "multiLocaleFirstName": {
+        "en_US": "Test"
+      },
+      "companyNameOnProfileTopCardShown": true,
+      "profilePublications": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePublicationsInjection",
+        "elements": []
+      },
+      "profileCertifications": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileCertificationsInjection",
+        "elements": []
+      },
+      "publicIdentifier": "test-person-1",
+      "trackingId": "REDACTED_TRACKING_ID",
+      "multiLocaleSummary": {
+        "en_US": "This is a sanitized example summary used for testing purposes only."
+      },
+      "profileVolunteerExperiences": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileVolunteerExperiencesInjection",
+        "elements": []
+      },
+      "versionTag": "urn:li:fakeEntity:1-5",
+      "profilePicture": {
+        "displayImageWithFrameReferenceUnion": {
+          "vectorImage": {
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+            "rootUrl": "https://example.com/redacted",
+            "artifacts": [
+              {
+                "width": 400,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1788645600000,
+                "height": 400
+              },
+              {
+                "width": 100,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1788645600000,
+                "height": 100
+              },
+              {
+                "width": 800,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1788645600000,
+                "height": 800
+              },
+              {
+                "width": 200,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1788645600000,
+                "height": 200
+              }
+            ]
+          }
+        },
+        "displayImageReference": {
+          "vectorImage": {
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+            "rootUrl": "https://example.com/redacted",
+            "artifacts": [
+              {
+                "width": 400,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 400
+              },
+              {
+                "width": 100,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 100
+              },
+              {
+                "width": 800,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 800
+              },
+              {
+                "width": 200,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 200
+              }
+            ]
+          }
+        },
+        "frameType": "OPEN_TO_WORK",
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecEditableProfilePicture",
+        "displayImageUrn": "urn:li:digitalmediaAsset:D4D03AQGbVdV4LLvYHQ",
+        "photoFilterEditInfo": {
+          "bottomLeft": {
+            "x": -0.0025706940796226263,
+            "y": 0.7267086505889893,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "vignette": 0,
+          "bottomRight": {
+            "x": 0.9974293112754822,
+            "y": 0.7267086505889893,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "topRight": {
+            "x": 0.9974293112754822,
+            "y": 0.06112632155418396,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "saturation": 0,
+          "brightness": 0,
+          "photoFilterType": "ORIGINAL",
+          "contrast": 0,
+          "topLeft": {
+            "x": -0.0025706940796226263,
+            "y": 0.06112632155418396,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1309211116"
+        }
+      },
+      "firstName": "Test",
+      "profileSkills": {
+        "paging": {
+          "total": 56,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkillsInjection",
+        "elements": [
+          {
+            "entityUrn": "urn:li:fakeEntity:1-6",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-7"
+            },
+            "name": "AI Automation",
+            "multiLocaleName": {
+              "en_US": "AI Automation"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-8",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-9"
+            },
+            "name": "Docker",
+            "multiLocaleName": {
+              "en_US": "Docker"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-10",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-11"
+            },
+            "name": "Amazon Web Services (AWS)",
+            "multiLocaleName": {
+              "en_US": "Amazon Web Services (AWS)"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-12",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-13"
+            },
+            "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+            "multiLocaleName": {
+              "en_US": "Continuous Integration and Continuous Delivery (CI/CD)"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-14",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-15"
+            },
+            "name": "C#",
+            "multiLocaleName": {
+              "en_US": "C#"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-16",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-17"
+            },
+            "name": "TypeScript",
+            "multiLocaleName": {
+              "en_US": "TypeScript"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-18",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-19"
+            },
+            "name": "Claude Code",
+            "multiLocaleName": {
+              "en_US": "Claude Code"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-20",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-21"
+            },
+            "name": "Model Context Protocol (MCP)",
+            "multiLocaleName": {
+              "en_US": "Model Context Protocol (MCP)"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-22",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-23"
+            },
+            "name": ".NET Framework",
+            "multiLocaleName": {
+              "en_US": ".NET Framework"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-24",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-25"
+            },
+            "name": "GitHub Copilot",
+            "multiLocaleName": {
+              "en_US": "GitHub Copilot"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-26",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-27"
+            },
+            "name": "Context Engineering",
+            "multiLocaleName": {
+              "en_US": "Context Engineering"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-28",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-29"
+            },
+            "name": "YAML",
+            "multiLocaleName": {
+              "en_US": "YAML"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-30",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-31"
+            },
+            "name": ".NET Core",
+            "multiLocaleName": {
+              "en_US": ".NET Core"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-32",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-33"
+            },
+            "name": "Java",
+            "multiLocaleName": {
+              "en_US": "Java"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-34",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-35"
+            },
+            "name": "React.js",
+            "multiLocaleName": {
+              "en_US": "React.js"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-36",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-37"
+            },
+            "name": "Full-Stack Development",
+            "multiLocaleName": {
+              "en_US": "Full-Stack Development"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-38",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-39"
+            },
+            "name": "REST APIs",
+            "multiLocaleName": {
+              "en_US": "REST APIs"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-40",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-41"
+            },
+            "name": "Firebase",
+            "multiLocaleName": {
+              "en_US": "Firebase"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-42",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-43"
+            },
+            "name": "Redux",
+            "multiLocaleName": {
+              "en_US": "Redux"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-44",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-45"
+            },
+            "name": "Socket.io",
+            "multiLocaleName": {
+              "en_US": "Socket.io"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          }
+        ]
+      },
+      "profileProjects": {
+        "paging": {
+          "total": 5,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileProjectsInjection",
+        "elements": [
+          {
+            "occupation": {
+              "profileEducation": {
+                "entityUrn": "urn:li:fakeEntity:1-46",
+                "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1621795678"
+              }
+            },
+            "multiLocaleTitle": {
+              "en_US": "The Automated Leave Management System ( Under Progress )"
+            },
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 6,
+                "year": 2023
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 6,
+                "year": 2023
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-47"
+            },
+            "description": "Developed a web-based software application that is being used by our college to facilitate leave requests of almost 50+ Staff Members. Eliminated approximately 50% of the time required to approve leave requests compared to the traditional procedure.\n\nConstructed several functionalities using PHP, Bootstrap and JQuery for server-side scripting, MySQL for database management and XAMPP as local web-server.",
+            "occupationUnion": {
+              "profileEducation": "urn:li:fsd_profileEducation:(ACoAADOAstEBIZ1pIxAiFSfMLhuspr_m7uBTmQA,845968230)"
+            },
+            "title": "The Automated Leave Management System ( Under Progress )",
+            "entityUrn": "urn:li:fakeEntity:1-48",
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileProject",
+            "contributors": [
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADOAstEBIZ1pIxAiFSfMLhuspr_m7uBTmQA",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-49"
+                    },
+                    "profilePicture": {
+                      "displayImageWithFrameReferenceUnion": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 400
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 100
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 800
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 200
+                            }
+                          ]
+                        }
+                      },
+                      "displayImageReference": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 400
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 100
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 800
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 200
+                            }
+                          ]
+                        }
+                      },
+                      "frameType": "OPEN_TO_WORK",
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture",
+                      "displayImageUrn": "urn:li:digitalmediaAsset:D4D03AQGbVdV4LLvYHQ"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-50",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              },
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADW0818BPh101fysRiebd4tSBhcPJHFsMlw",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-51"
+                    },
+                    "profilePicture": {
+                      "displayImageReference": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 100
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 200
+                            },
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 400
+                            },
+                            {
+                              "width": 692,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 692
+                            }
+                          ]
+                        }
+                      },
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture",
+                      "displayImageUrn": "urn:li:digitalmediaAsset:D4E03AQGzNmnt4uIGgw"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-52",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              },
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADdiygcBYF6Gb1cbkhw2-XMrfRNQ0OdGqxs",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-53"
+                    },
+                    "profilePicture": {
+                      "displayImageReference": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 100
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 200
+                            },
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 400
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 800
+                            }
+                          ]
+                        }
+                      },
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture",
+                      "displayImageUrn": "urn:li:digitalmediaAsset:C5603AQEW1O3ZbEQrQg"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-54",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              }
+            ],
+            "multiLocaleDescription": {
+              "en_US": "Developed a web-based software application that is being used by our college to facilitate leave requests of almost 50+ Staff Members. Eliminated approximately 50% of the time required to approve leave requests compared to the traditional procedure.\n\nConstructed several functionalities using PHP, Bootstrap and JQuery for server-side scripting, MySQL for database management and XAMPP as local web-server."
+            }
+          },
+          {
+            "occupation": {
+              "profilePosition": {
+                "entityUrn": "urn:li:fakeEntity:1-55",
+                "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon517843535"
+              }
+            },
+            "multiLocaleTitle": {
+              "en_US": "Leetcode Reminder"
+            },
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 3,
+                "year": 2023
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 8,
+                "year": 2023
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-56"
+            },
+            "description": "Developed a Chrome extension that provides daily reminders on both Chrome webpages and Discord to assist in maintaining consistent LeetCode streaks.\n\nIncorporated a Discord bot that delivers periodic push notifications to user devices using Discord.js, Nodemailer and node-cron.\n\nConfigured a Next.js server to create APIs responsible for managing database operations within Firebase.",
+            "occupationUnion": {
+              "profilePosition": "urn:li:fsd_profilePosition:(ACoAADOAstEBIZ1pIxAiFSfMLhuspr_m7uBTmQA,2169261904)"
+            },
+            "title": "Leetcode Reminder",
+            "entityUrn": "urn:li:fakeEntity:1-57",
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileProject",
+            "contributors": [
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADOAstEBIZ1pIxAiFSfMLhuspr_m7uBTmQA",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-58"
+                    },
+                    "profilePicture": {
+                      "displayImageWithFrameReferenceUnion": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 400
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 100
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 800
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 200
+                            }
+                          ]
+                        }
+                      },
+                      "displayImageReference": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 400
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 100
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 800
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 200
+                            }
+                          ]
+                        }
+                      },
+                      "frameType": "OPEN_TO_WORK",
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture",
+                      "displayImageUrn": "urn:li:digitalmediaAsset:D4D03AQGbVdV4LLvYHQ"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-59",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              }
+            ],
+            "multiLocaleDescription": {
+              "en_US": "Developed a Chrome extension that provides daily reminders on both Chrome webpages and Discord to assist in maintaining consistent LeetCode streaks.\n\nIncorporated a Discord bot that delivers periodic push notifications to user devices using Discord.js, Nodemailer and node-cron.\n\nConfigured a Next.js server to create APIs responsible for managing database operations within Firebase."
+            }
+          },
+          {
+            "multiLocaleTitle": {
+              "en_US": "Official Website of Bajaj Science Education Center"
+            },
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 2,
+                "year": 2023
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 7,
+                "year": 2023
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-60"
+            },
+            "description": "Bajaj Science Education Centre is a place for children to learn science through exploration and play.\n\nRedesigned previous website, revamping its user interface (UI) to enhance visual appeal, and improve overall functionality. Resulted in a visually appealing and user-friendly website that significantly improved user engagement using Figma and Tailwind CSS.\n\nIntroduced an intuitive admin panel for admin to effortlessly update and manage upcoming notices and class content for students using NextJS and Firebase, achieving a substantial time reduction of 91.67% .\n\nUtilized Firebase Storage to store images and Firestore for database managment that allows the admin to update and view data in real-time.\n\nContributed to cost savings by strategically migrating the project to a free-tier hosting platform.",
+            "title": "Official Website of Bajaj Science Education Center",
+            "entityUrn": "urn:li:fakeEntity:1-61",
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileProject",
+            "contributors": [
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADOAstEBIZ1pIxAiFSfMLhuspr_m7uBTmQA",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-62"
+                    },
+                    "profilePicture": {
+                      "displayImageWithFrameReferenceUnion": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 400
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 100
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 800
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 200
+                            }
+                          ]
+                        }
+                      },
+                      "displayImageReference": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 400
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 100
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 800
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 200
+                            }
+                          ]
+                        }
+                      },
+                      "frameType": "OPEN_TO_WORK",
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture",
+                      "displayImageUrn": "urn:li:digitalmediaAsset:D4D03AQGbVdV4LLvYHQ"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-63",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              }
+            ],
+            "multiLocaleDescription": {
+              "en_US": "Bajaj Science Education Centre is a place for children to learn science through exploration and play.\n\nRedesigned previous website, revamping its user interface (UI) to enhance visual appeal, and improve overall functionality. Resulted in a visually appealing and user-friendly website that significantly improved user engagement using Figma and Tailwind CSS.\n\nIntroduced an intuitive admin panel for admin to effortlessly update and manage upcoming notices and class content for students using NextJS and Firebase, achieving a substantial time reduction of 91.67% .\n\nUtilized Firebase Storage to store images and Firestore for database managment that allows the admin to update and view data in real-time.\n\nContributed to cost savings by strategically migrating the project to a free-tier hosting platform."
+            }
+          },
+          {
+            "occupation": {
+              "profilePosition": {
+                "entityUrn": "urn:li:fakeEntity:1-64",
+                "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon517843535"
+              }
+            },
+            "multiLocaleTitle": {
+              "en_US": "NSCC BITW Official Website"
+            },
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 1,
+                "year": 2023
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 1,
+                "year": 2023
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-65"
+            },
+            "description": "NSCC BITW is an outcome-oriented coding community that aims to upskill all its members and ultimately make them have successful careers.\n\nDeveloped NSCC BITW website that incorporates all the necessary details of the club. Frontend was implemented in ReactJS as it allow us to create dynamic react components. Backend is a express server that allows CRUD operations for events and members with the help of NoSQL database MongoDB.",
+            "occupationUnion": {
+              "profilePosition": "urn:li:fsd_profilePosition:(ACoAADOAstEBIZ1pIxAiFSfMLhuspr_m7uBTmQA,2014398203)"
+            },
+            "title": "NSCC BITW Official Website",
+            "entityUrn": "urn:li:fakeEntity:1-66",
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileProject",
+            "contributors": [
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADOAstEBIZ1pIxAiFSfMLhuspr_m7uBTmQA",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-67"
+                    },
+                    "profilePicture": {
+                      "displayImageWithFrameReferenceUnion": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 400
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 100
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 800
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 200
+                            }
+                          ]
+                        }
+                      },
+                      "displayImageReference": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 400
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 100
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 800
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 200
+                            }
+                          ]
+                        }
+                      },
+                      "frameType": "OPEN_TO_WORK",
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture",
+                      "displayImageUrn": "urn:li:digitalmediaAsset:D4D03AQGbVdV4LLvYHQ"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-68",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              },
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADkifuwBZXPzLkciBFnc6KGr6EcDKdBB7A4",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-69"
+                    },
+                    "profilePicture": {
+                      "displayImageReference": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 100
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 200
+                            },
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 400
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 800
+                            }
+                          ]
+                        }
+                      },
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture",
+                      "displayImageUrn": "urn:li:digitalmediaAsset:C5603AQGmv8yBJo02jw"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-70",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              },
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADzLPsQB3lNlEiFhhlKo1NuYq9F6PXLNKp0",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-71"
+                    },
+                    "profilePicture": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-72",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              },
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADW0818BPh101fysRiebd4tSBhcPJHFsMlw",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-73"
+                    },
+                    "profilePicture": {
+                      "displayImageReference": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 100
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 200
+                            },
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 400
+                            },
+                            {
+                              "width": 692,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 692
+                            }
+                          ]
+                        }
+                      },
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture",
+                      "displayImageUrn": "urn:li:digitalmediaAsset:D4E03AQGzNmnt4uIGgw"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-74",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              }
+            ],
+            "multiLocaleDescription": {
+              "en_US": "NSCC BITW is an outcome-oriented coding community that aims to upskill all its members and ultimately make them have successful careers.\n\nDeveloped NSCC BITW website that incorporates all the necessary details of the club. Frontend was implemented in ReactJS as it allow us to create dynamic react components. Backend is a express server that allows CRUD operations for events and members with the help of NoSQL database MongoDB."
+            }
+          },
+          {
+            "occupation": {
+              "profileEducation": {
+                "entityUrn": "urn:li:fakeEntity:1-75",
+                "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1621795678"
+              }
+            },
+            "multiLocaleTitle": {
+              "en_US": "Cafe Management System"
+            },
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 12,
+                "year": 2022
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 12,
+                "year": 2022
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-76"
+            },
+            "description": "Engineered a Cafe Management System that scans QR codes and displays a digital menu, enabling customers to place orders digitally.\n\nIncorporated a Menu Page, integrated search functionality, and designed an Orders Page using React and Redux.\n\nRazorpay payment integration was seamlessly managed, and built APIs using Node.js and Express.js to support it.\n\nI’ve employed Mongoose’s changeStream along with Socket.io to enable real-time updates for order.",
+            "occupationUnion": {
+              "profileEducation": "urn:li:fsd_profileEducation:(ACoAADOAstEBIZ1pIxAiFSfMLhuspr_m7uBTmQA,845968230)"
+            },
+            "title": "Cafe Management System",
+            "entityUrn": "urn:li:fakeEntity:1-77",
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileProject",
+            "contributors": [
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADOAstEBIZ1pIxAiFSfMLhuspr_m7uBTmQA",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-78"
+                    },
+                    "profilePicture": {
+                      "displayImageWithFrameReferenceUnion": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 400
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 100
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 800
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1788645600000,
+                              "height": 200
+                            }
+                          ]
+                        }
+                      },
+                      "displayImageReference": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 400
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 100
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 800
+                            },
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 200
+                            }
+                          ]
+                        }
+                      },
+                      "frameType": "OPEN_TO_WORK",
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture",
+                      "displayImageUrn": "urn:li:digitalmediaAsset:D4D03AQGbVdV4LLvYHQ"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-79",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              },
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADXF6PAB0Uq1L0bjkZmsVniB1V_O3hHgUR8",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-80"
+                    },
+                    "profilePicture": {
+                      "displayImageReference": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 200
+                            },
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 400
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 100
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 800
+                            }
+                          ]
+                        }
+                      },
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture",
+                      "displayImageUrn": "urn:li:digitalmediaAsset:D4D03AQGGECcurmSZ1A"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-81",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              },
+              {
+                "standardizedContributor": {
+                  "profileUrn": "urn:li:fsd_profile:ACoAADfYk8IBo17VUGXmgeP2t2AIrwu1evSYnSE",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.StandardizedContributor",
+                  "profile": {
+                    "memorialized": false,
+                    "lastName": "Person1",
+                    "$anti_abuse_metadata": {
+                      "$anti_abuse_uuid": "urn:li:fakeEntity:1-82"
+                    },
+                    "profilePicture": {
+                      "displayImageReference": {
+                        "vectorImage": {
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                          "rootUrl": "https://example.com/redacted",
+                          "artifacts": [
+                            {
+                              "width": 200,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 200
+                            },
+                            {
+                              "width": 800,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 800
+                            },
+                            {
+                              "width": 100,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 100
+                            },
+                            {
+                              "width": 400,
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                              "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                              "expiresAt": 1789603200000,
+                              "height": 400
+                            }
+                          ]
+                        }
+                      },
+                      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecReadOnlyProfilePicture",
+                      "displayImageUrn": "urn:li:digitalmediaAsset:D5603AQGGHmNhKBHiYg"
+                    },
+                    "firstName": "Test",
+                    "entityUrn": "urn:li:fakeEntity:1-83",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.MiniProfile",
+                    "headline": "Example Role | Example Specialty | Open to Opportunities",
+                    "publicIdentifier": "test-person-1"
+                  }
+                }
+              }
+            ],
+            "multiLocaleDescription": {
+              "en_US": "Engineered a Cafe Management System that scans QR codes and displays a digital menu, enabling customers to place orders digitally.\n\nIncorporated a Menu Page, integrated search functionality, and designed an Orders Page using React and Redux.\n\nRazorpay payment integration was seamlessly managed, and built APIs using Node.js and Express.js to support it.\n\nI’ve employed Mongoose’s changeStream along with Socket.io to enable real-time updates for order."
+            }
+          }
+        ]
+      },
+      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities",
+      "multiLocaleHeadline": {
+        "en_US": "Example Role | Example Specialty | Open to Opportunities"
+      },
+      "profileHonors": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileHonorsInjection",
+        "elements": []
+      },
+      "memorialized": false,
+      "lastName": "Person1",
+      "profilePatents": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePatentsInjection",
+        "elements": []
+      },
+      "showPremiumSubscriberBadge": true,
+      "industry": {
+        "name": "Computer Software",
+        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+        "entityUrn": "urn:li:fakeEntity:1-84"
+      },
+      "geoLocationBackfilled": false,
+      "multiLocaleFullNamePronunciationAudio": {},
+      "profileTestScores": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTestScoresInjection",
+        "elements": []
+      },
+      "premium": true,
+      "influencer": false,
+      "entityUrn": "urn:li:fakeEntity:1-85",
+      "profileLanguages": {
+        "paging": {
+          "total": 2,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileLanguagesInjection",
+        "elements": [
+          {
+            "entityUrn": "urn:li:fakeEntity:1-86",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-87"
+            },
+            "name": "English",
+            "multiLocaleName": {
+              "en_US": "English"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileLanguage",
+            "proficiency": "PROFESSIONAL_WORKING"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-88",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-89"
+            },
+            "name": "Hindi",
+            "multiLocaleName": {
+              "en_US": "Hindi"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileLanguage",
+            "proficiency": "NATIVE_OR_BILINGUAL"
+          }
+        ]
+      },
+      "headline": "Example Role | Example Specialty | Open to Opportunities",
+      "summary": "This is a sanitized example summary used for testing purposes only.",
+      "creator": true,
+      "profileCourses": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileCoursesInjection",
+        "elements": []
+      },
+      "supportedLocales": [
+        {
+          "country": "US",
+          "language": "en",
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.Locale"
+        }
+      ],
+      "educationOnProfileTopCardShown": true,
+      "industryUrn": "urn:li:fsd_industry:4",
+      "profilePositionGroups": {
+        "paging": {
+          "total": 5,
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroupsInjection",
+        "elements": [
+          {
+            "entityUrn": "urn:li:fakeEntity:1-90",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 7,
+                "year": 2024
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp A"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-91"
+            },
+            "companyName": "Example Corp B",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 7,
+                      "year": 2024
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp C"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:1-92"
+                  },
+                  "companyName": "Example Corp D",
+                  "description": "• Developed an agentic automation layer using MCP, Code Mode, and GitHub Copilot across 15+ tools, enhancing user workflow efficiency.  \n• Implemented an AI-first development workflow, accelerating delivery while maintaining quality control through human oversight.  \n• Modernized over 90 static WPF dialogs, improving usability across various display resolutions with C#/.NET and Prism.",
+                  "title": "Associate Software Engineer",
+                  "companyUrn": "urn:li:fsd_company:4929",
+                  "geo": {
+                    "entityUrn": "urn:li:fakeEntity:1-93",
+                    "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1271139837"
+                  },
+                  "employmentTypeUrn": "urn:li:fsd_employmentType:12",
+                  "entityUrn": "urn:li:fakeEntity:1-94",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "Pune District"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:4": {
+                        "name": "Computer Software",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:1-95"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:4"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 5001,
+                      "end": 10000,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:1-96",
+                    "name": "REDACTED",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "REDACTED"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "Pune District",
+                  "multiLocaleTitle": {
+                    "en_US": "Associate Software Engineer"
+                  },
+                  "employmentType": {
+                    "name": "Full-time",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                    "entityUrn": "urn:li:fakeEntity:1-97",
+                    "companyNameRequired": true
+                  },
+                  "geoUrn": "urn:li:fsd_geo:114806696",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "Pune District",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleDescription": {
+                    "en_US": "• Developed an agentic automation layer using MCP, Code Mode, and GitHub Copilot across 15+ tools, enhancing user workflow efficiency.  \n• Implemented an AI-first development workflow, accelerating delivery while maintaining quality control through human oversight.  \n• Modernized over 90 static WPF dialogs, improving usability across various display resolutions with C#/.NET and Prism."
+                  },
+                  "multiLocaleLocationName": {
+                    "en_US": "Pune District"
+                  }
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:4": {
+                  "name": "Computer Software",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:1-98"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:4"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 5001,
+                "end": 10000,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:1-99",
+              "name": "REDACTED",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "REDACTED"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:4929"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-100",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 1,
+                "year": 2024
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 7,
+                "year": 2024
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp E"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-101"
+            },
+            "companyName": "Example Corp A",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 1,
+                      "year": 2024
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 7,
+                      "year": 2024
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp B"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:1-102"
+                  },
+                  "companyName": "Example Corp C",
+                  "description": "• Deployed cloud infrastructure using AWS services such as EC2, S3, VPC, and ALB to enhance application scalability. \n• Implemented load balancing, horizontal scaling, and monitoring solutions with CloudWatch and SNS for efficient resource management.  \n• Developed Jenkins CI/CD pipelines and containerized applications with Docker, streamlining deployment workflows and minimizing manual efforts.",
+                  "title": "Intern",
+                  "companyUrn": "urn:li:fsd_company:4814786",
+                  "geo": {
+                    "entityUrn": "urn:li:fakeEntity:1-103",
+                    "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1271139837"
+                  },
+                  "employmentTypeUrn": "urn:li:fsd_employmentType:18",
+                  "entityUrn": "urn:li:fakeEntity:1-104",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "Pune District"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:96": {
+                        "name": "Information Technology & Services",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:1-105"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:96"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 501,
+                      "end": 1000,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:1-106",
+                    "name": "Coditas",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "coditas"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "Pune District",
+                  "multiLocaleTitle": {
+                    "en_US": "Intern"
+                  },
+                  "employmentType": {
+                    "name": "Internship",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                    "entityUrn": "urn:li:fakeEntity:1-107",
+                    "companyNameRequired": true
+                  },
+                  "geoUrn": "urn:li:fsd_geo:114806696",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "Pune District",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleDescription": {
+                    "en_US": "• Deployed cloud infrastructure using AWS services such as EC2, S3, VPC, and ALB to enhance application scalability. \n• Implemented load balancing, horizontal scaling, and monitoring solutions with CloudWatch and SNS for efficient resource management.  \n• Developed Jenkins CI/CD pipelines and containerized applications with Docker, streamlining deployment workflows and minimizing manual efforts."
+                  },
+                  "multiLocaleLocationName": {
+                    "en_US": "Pune District"
+                  }
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:96": {
+                  "name": "Information Technology & Services",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:1-108"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:96"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 501,
+                "end": 1000,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:1-109",
+              "name": "Coditas",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "coditas"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:4814786"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-110",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 5,
+                "year": 2023
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 8,
+                "year": 2023
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp D"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-111"
+            },
+            "companyName": "Example Corp E",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "shouldShowSourceOfHireBadge": false,
+                  "multiLocaleTitle": {
+                    "en_US": "Open Source Developer Intern"
+                  },
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 5,
+                      "year": 2023
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 8,
+                      "year": 2023
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp A"
+                  },
+                  "employmentType": {
+                    "name": "Internship",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                    "entityUrn": "urn:li:fakeEntity:1-112",
+                    "companyNameRequired": true
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:1-113"
+                  },
+                  "companyName": "Example Corp B",
+                  "description": "Devkit is The Ultimate Developer Toolkit\nMy responsibility was to manage the GitHub repository and develop a chrome extension that provides daily reminders on both Chrome webpages and Discord to assist in maintaining consistent LeetCode streaks.",
+                  "title": "Open Source Developer Intern",
+                  "companyUrn": "urn:li:fsd_company:78760593",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 1,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": [
+                      {
+                        "multiLocaleTitle": {
+                          "en_US": "GitHub - get-devkit/leetcodereminder"
+                        },
+                        "data": {
+                          "Url": "https://github.com/get-devkit/leetcodereminder"
+                        },
+                        "entityUrn": "urn:li:fakeEntity:1-114",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMedia",
+                        "title": "GitHub - get-devkit/leetcodereminder",
+                        "providerName": "GitHub",
+                        "previewImage": {
+                          "attributes": [
+                            {
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.image.ImageAttribute",
+                              "detailDataUnion": {
+                                "vectorImage": {
+                                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                                  "rootUrl": "https://example.com/redacted",
+                                  "artifacts": [
+                                    {
+                                      "width": 800,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788645600000,
+                                      "height": 400
+                                    },
+                                    {
+                                      "width": 160,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788645600000,
+                                      "height": 80
+                                    },
+                                    {
+                                      "width": 1200,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788645600000,
+                                      "height": 600
+                                    },
+                                    {
+                                      "width": 480,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788645600000,
+                                      "height": 240
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.image.ImageViewModel"
+                        }
+                      }
+                    ]
+                  },
+                  "employmentTypeUrn": "urn:li:fsd_employmentType:18",
+                  "entityUrn": "urn:li:fakeEntity:1-115",
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:4": {
+                        "name": "Computer Software",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:1-116"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:4"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 11,
+                      "end": 50,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:1-117",
+                    "name": "DevKit",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "getdevkit"
+                  },
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleDescription": {
+                    "en_US": "Devkit is The Ultimate Developer Toolkit\nMy responsibility was to manage the GitHub repository and develop a chrome extension that provides daily reminders on both Chrome webpages and Discord to assist in maintaining consistent LeetCode streaks."
+                  }
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:4": {
+                  "name": "Computer Software",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:1-118"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:4"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 11,
+                "end": 50,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:1-119",
+              "name": "DevKit",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "getdevkit"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:78760593"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-120",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 2,
+                "year": 2023
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 8,
+                "year": 2023
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp C"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-121"
+            },
+            "companyName": "Example Corp D",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 2,
+                      "year": 2023
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 8,
+                      "year": 2023
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp E"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:1-122"
+                  },
+                  "companyName": "Example Corp A",
+                  "description": "Kreedy is a Saas platform that facilitates the turf booking process by replacing the hassle of booking turfs traditionally.\n\nI managed technical team of 6 members tasked to develop 2 mobile applications. developed scalable APIs, implemented unit testing and integration testing with other tasks such as code reviews, pull requests and CI/CD integration.",
+                  "title": "Intern Team Lead",
+                  "companyUrn": "urn:li:fsd_company:90501133",
+                  "geo": {
+                    "entityUrn": "urn:li:fakeEntity:1-123",
+                    "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1271139837"
+                  },
+                  "employmentTypeUrn": "urn:li:fsd_employmentType:11",
+                  "entityUrn": "urn:li:fakeEntity:1-124",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "India"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:33": {
+                        "name": "Sports",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:1-125"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:33"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 11,
+                      "end": 50,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:1-126",
+                    "name": "Kreedy",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "kreedy"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "India",
+                  "multiLocaleTitle": {
+                    "en_US": "Intern Team Lead"
+                  },
+                  "employmentType": {
+                    "name": "Part-time",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                    "entityUrn": "urn:li:fakeEntity:1-127",
+                    "companyNameRequired": true
+                  },
+                  "geoUrn": "urn:li:fsd_geo:102713980",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "India",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleDescription": {
+                    "en_US": "Kreedy is a Saas platform that facilitates the turf booking process by replacing the hassle of booking turfs traditionally.\n\nI managed technical team of 6 members tasked to develop 2 mobile applications. developed scalable APIs, implemented unit testing and integration testing with other tasks such as code reviews, pull requests and CI/CD integration."
+                  },
+                  "multiLocaleLocationName": {
+                    "en_US": "India"
+                  },
+                  "sourceOfHireType": "OTHER"
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:33": {
+                  "name": "Sports",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:1-128"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:33"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 11,
+                "end": 50,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:1-129",
+              "name": "Kreedy",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "kreedy"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:90501133"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:1-130",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 8,
+                "year": 2022
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 7,
+                "year": 2023
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp B"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:1-131"
+            },
+            "companyName": "Example Corp C",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 8,
+                      "year": 2022
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 7,
+                      "year": 2023
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp D"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:1-132"
+                  },
+                  "companyName": "Example Corp E",
+                  "description": "NSCC BITW is an outcome-oriented coding community that aims to upskill all its members and ultimately make them have successful careers.\n\nAs the president my responsibility involved overseeing and guiding teams, facilitating online events, career conversations and DSA batches enabling club members to enhance their coding knowledge and skills.",
+                  "title": "The President",
+                  "companyUrn": "urn:li:fsd_company:82498471",
+                  "geo": {
+                    "entityUrn": "urn:li:fakeEntity:1-133",
+                    "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1271139837"
+                  },
+                  "employmentTypeUrn": "urn:li:fsd_employmentType:11",
+                  "entityUrn": "urn:li:fakeEntity:1-134",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "Wardha, Maharashtra, India"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:96": {
+                        "name": "Information Technology & Services",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:1-135"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:96"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 11,
+                      "end": 50,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:1-136",
+                    "name": "NSCC_BITW",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "nscc-bitw"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "Wardha, Maharashtra, India",
+                  "multiLocaleTitle": {
+                    "en_US": "The President"
+                  },
+                  "employmentType": {
+                    "name": "Part-time",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                    "entityUrn": "urn:li:fakeEntity:1-137",
+                    "companyNameRequired": true
+                  },
+                  "geoUrn": "urn:li:fsd_geo:107024004",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 2,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": [
+                      {
+                        "multiLocaleTitle": {
+                          "en_US": "Offer Letter.pdf"
+                        },
+                        "data": {
+                          "NativeDocument": {
+                            "transcribedDocumentUrl": "https://example.com/redacted",
+                            "manifestUrlExpiresAt": 1788645600000,
+                            "title": "Offer Letter.pdf",
+                            "urn": "urn:li:digitalmediaAsset:D562DAQFQywKMuQmZTQ",
+                            "manifestUrl": "https://example.com/redacted",
+                            "scanRequiredForDownload": true,
+                            "totalPageCount": 1,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.Document",
+                            "coverPages": {
+                              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.DocumentPages",
+                              "pagesPerResolution": [
+                                {
+                                  "width": 347,
+                                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.DocumentResolutionPages",
+                                  "imageUrls": [
+                                    "https://example.com/redacted"
+                                  ],
+                                  "height": 491
+                                },
+                                {
+                                  "width": 570,
+                                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.DocumentResolutionPages",
+                                  "imageUrls": [
+                                    "https://example.com/redacted"
+                                  ],
+                                  "height": 807
+                                },
+                                {
+                                  "width": 908,
+                                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.DocumentResolutionPages",
+                                  "imageUrls": [
+                                    "https://example.com/redacted"
+                                  ],
+                                  "height": 1286
+                                },
+                                {
+                                  "width": 1363,
+                                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.DocumentResolutionPages",
+                                  "imageUrls": [
+                                    "https://example.com/redacted"
+                                  ],
+                                  "height": 1930
+                                }
+                              ],
+                              "transcripts": []
+                            },
+                            "transcribedDocumentUrlExpiresAt": 1788645600000
+                          }
+                        },
+                        "entityUrn": "urn:li:fakeEntity:1-138",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMedia",
+                        "title": "Offer Letter.pdf",
+                        "previewImage": {
+                          "attributes": [
+                            {
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.image.ImageAttribute",
+                              "detailDataUnion": {
+                                "vectorImage": {
+                                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                                  "rootUrl": "https://example.com/redacted",
+                                  "artifacts": [
+                                    {
+                                      "width": 908,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788645600000,
+                                      "height": 1286
+                                    },
+                                    {
+                                      "width": 570,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788645600000,
+                                      "height": 807
+                                    },
+                                    {
+                                      "width": 1363,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788645600000,
+                                      "height": 1930
+                                    },
+                                    {
+                                      "width": 347,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788645600000,
+                                      "height": 491
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.image.ImageViewModel"
+                        }
+                      },
+                      {
+                        "multiLocaleTitle": {
+                          "en_US": "NSCC BITW official website"
+                        },
+                        "data": {
+                          "Url": "https://www.nsccbitw.live/"
+                        },
+                        "entityUrn": "urn:li:fakeEntity:1-139",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMedia",
+                        "title": "NSCC BITW official website",
+                        "providerName": "nsccbitw.live"
+                      }
+                    ]
+                  },
+                  "geoLocationName": "Wardha, Maharashtra, India",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleDescription": {
+                    "en_US": "NSCC BITW is an outcome-oriented coding community that aims to upskill all its members and ultimately make them have successful careers.\n\nAs the president my responsibility involved overseeing and guiding teams, facilitating online events, career conversations and DSA batches enabling club members to enhance their coding knowledge and skills."
+                  },
+                  "multiLocaleLocationName": {
+                    "en_US": "Wardha, Maharashtra, India"
+                  },
+                  "sourceOfHireType": "OTHER"
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:96": {
+                  "name": "Information Technology & Services",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:1-140"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:96"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 11,
+                "end": 50,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:1-141",
+              "name": "NSCC_BITW",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "nscc-bitw"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:82498471"
+          }
+        ]
+      },
+      "geoLocation": {
+        "geo": {
+          "countryUrn": "urn:li:fsd_geo:102713980",
+          "country": {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.CountryGeo",
+            "entityUrn": "urn:li:fakeEntity:1-142",
+            "defaultLocalizedName": "India"
+          },
+          "defaultLocalizedNameWithoutCountryName": "Wardha, Maharashtra",
+          "entityUrn": "urn:li:fakeEntity:1-143",
+          "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.Geo",
+          "defaultLocalizedName": "Wardha, Maharashtra, India"
+        },
+        "geoUrn": "urn:li:fsd_geo:107024004",
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfileGeoLocation"
+      },
+      "profileRingStatusCollection": {
+        "paging": {
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1936086081",
+        "elements": []
+      },
+      "location": {
+        "countryCode": "IN",
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfileLocation"
+      },
+      "backgroundPicture": {
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecEditableBackgroundPicture",
+        "displayImageUrn": "urn:li:digitalmediaAsset:D4D16AQGOc8WmxfUmhw",
+        "displayImageReference": {
+          "vectorImage": {
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+            "rootUrl": "https://example.com/redacted",
+            "artifacts": [
+              {
+                "width": 800,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 200
+              },
+              {
+                "width": 1400,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 350
+              }
+            ]
+          }
+        },
+        "photoFilterEditInfo": {
+          "bottomLeft": {
+            "x": -6.123234262925839e-17,
+            "y": 1,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "vignette": 0,
+          "bottomRight": {
+            "x": 1,
+            "y": 1,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "topRight": {
+            "x": 1,
+            "y": -8.27763741797653e-17,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "saturation": 0,
+          "brightness": 0,
+          "photoFilterType": "ORIGINAL",
+          "contrast": 0,
+          "topLeft": {
+            "x": 6.505898087027137e-32,
+            "y": -1.0624937768385608e-15,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1309211116"
+        }
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en",
+        "$recipeType": "com.linkedin.voyager.dash.deco.common.Locale"
+      }
+    }
+  ],
+  "paging": {
+    "count": 10,
+    "start": 0,
+    "links": []
+  }
+}

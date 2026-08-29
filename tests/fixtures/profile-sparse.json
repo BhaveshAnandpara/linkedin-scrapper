@@ -1,0 +1,2486 @@
+{
+  "elements": [
+    {
+      "profileVideoPreview": {
+        "paging": {
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon429038699",
+        "elements": []
+      },
+      "profileTreasuryMediaProfile": {
+        "paging": {
+          "total": 0,
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+        "elements": []
+      },
+      "objectUrn": "urn:li:fakeEntity:3-1",
+      "multiLocaleLastName": {
+        "en_US": "Person3"
+      },
+      "multiLocaleFirstNamePronunciationHint": {},
+      "profileOrganizations": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileOrganizationsInjection",
+        "elements": []
+      },
+      "multiLocaleLastNamePronunciationHint": {},
+      "profileEducations": {
+        "paging": {
+          "total": 2,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileEducationsInjection",
+        "elements": [
+          {
+            "dateRange": {
+              "start": {
+                "year": 2003,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date"
+              },
+              "end": {
+                "year": 2004,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-2"
+            },
+            "profileTreasuryMediaEducation": {
+              "paging": {
+                "total": 0,
+                "count": 10,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+              "elements": []
+            },
+            "degreeName": "Dropout",
+            "companyUrn": "urn:li:fsd_company:417042",
+            "multiLocaleSchoolName": {
+              "en_US": "Example University A"
+            },
+            "schoolUrn": "urn:li:fsd_school:20495",
+            "entityUrn": "urn:li:fakeEntity:3-3",
+            "school": {
+              "entityUrn": "urn:li:fakeEntity:3-4",
+              "name": "SVKM's Narsee Monjee Institute of Management Studies (NMIMS)",
+              "active": true,
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImage",
+                  "digitalmediaAsset": "urn:li:digitalmediaAsset:C510BAQHW16ttC_rbmQ",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.organization.MiniSchool",
+              "url": "https://example.com/redacted"
+            },
+            "company": {
+              "entityUrn": "urn:li:fakeEntity:3-5",
+              "name": "SVKM's Narsee Monjee Institute of Management Studies (NMIMS)",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImage",
+                  "digitalmediaAsset": "urn:li:digitalmediaAsset:C510BAQHW16ttC_rbmQ",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.organization.MiniCompany",
+              "url": "https://example.com/redacted"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileEducation",
+            "schoolName": "Example University B",
+            "multiLocaleDegreeName": {
+              "en_US": "Dropout"
+            }
+          },
+          {
+            "dateRange": {
+              "start": {
+                "year": 1994,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date"
+              },
+              "end": {
+                "year": 2000,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-6"
+            },
+            "profileTreasuryMediaEducation": {
+              "paging": {
+                "total": 0,
+                "count": 10,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+              "elements": []
+            },
+            "degreeName": "Bachelor of Arts (B.A.)",
+            "multiLocaleSchoolName": {
+              "en_US": "Example University A"
+            },
+            "entityUrn": "urn:li:fakeEntity:3-7",
+            "multiLocaleFieldOfStudy": {
+              "en_US": "Philosophy"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileEducation",
+            "schoolName": "Example University B",
+            "fieldOfStudy": "Philosophy",
+            "multiLocaleDegreeName": {
+              "en_US": "Bachelor of Arts (B.A.)"
+            }
+          }
+        ]
+      },
+      "multiLocaleFirstName": {
+        "en_US": "Test"
+      },
+      "companyNameOnProfileTopCardShown": true,
+      "profilePublications": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePublicationsInjection",
+        "elements": []
+      },
+      "profileCertifications": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileCertificationsInjection",
+        "elements": []
+      },
+      "publicIdentifier": "test-person-3",
+      "trackingId": "REDACTED_TRACKING_ID",
+      "profileVolunteerExperiences": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileVolunteerExperiencesInjection",
+        "elements": []
+      },
+      "versionTag": "urn:li:fakeEntity:3-8",
+      "profilePicture": {
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecEditableProfilePicture",
+        "displayImageUrn": "urn:li:digitalmediaAsset:C5103AQGhibvt-cfcjA",
+        "displayImageReference": {
+          "vectorImage": {
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+            "rootUrl": "https://example.com/redacted",
+            "artifacts": [
+              {
+                "width": 100,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 100
+              },
+              {
+                "width": 200,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 200
+              },
+              {
+                "width": 400,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 400
+              },
+              {
+                "width": 800,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 800
+              }
+            ]
+          }
+        },
+        "photoFilterEditInfo": {
+          "bottomLeft": {
+            "x": 0,
+            "y": 0.8657500147819519,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "vignette": 0,
+          "bottomRight": {
+            "x": 1,
+            "y": 0.8657500147819519,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "topRight": {
+            "x": 1,
+            "y": 0.0628800019621849,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "saturation": 0,
+          "brightness": 0,
+          "photoFilterType": "ORIGINAL",
+          "contrast": 0,
+          "topLeft": {
+            "x": 0,
+            "y": 0.0628800019621849,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1309211116"
+        }
+      },
+      "firstName": "Test",
+      "profileSkills": {
+        "paging": {
+          "total": 46,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkillsInjection",
+        "elements": [
+          {
+            "entityUrn": "urn:li:fakeEntity:3-9",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-10"
+            },
+            "name": "Marketing Strategy",
+            "multiLocaleName": {
+              "en_US": "Marketing Strategy"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-11",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-12"
+            },
+            "name": "Entrepreneurship",
+            "multiLocaleName": {
+              "en_US": "Entrepreneurship"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-13",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-14"
+            },
+            "name": "E-commerce",
+            "multiLocaleName": {
+              "en_US": "E-commerce"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-15",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-16"
+            },
+            "name": "Start-ups",
+            "multiLocaleName": {
+              "en_US": "Start-ups"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-17",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-18"
+            },
+            "name": "Online Advertising",
+            "multiLocaleName": {
+              "en_US": "Online Advertising"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-19",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-20"
+            },
+            "name": "Digital Marketing",
+            "multiLocaleName": {
+              "en_US": "Digital Marketing"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-21",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-22"
+            },
+            "name": "Business Strategy",
+            "multiLocaleName": {
+              "en_US": "Business Strategy"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-23",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-24"
+            },
+            "name": "Management",
+            "multiLocaleName": {
+              "en_US": "Management"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-25",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-26"
+            },
+            "name": "Business Development",
+            "multiLocaleName": {
+              "en_US": "Business Development"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-27",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-28"
+            },
+            "name": "Team Management",
+            "multiLocaleName": {
+              "en_US": "Team Management"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-29",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-30"
+            },
+            "name": "New Business Development",
+            "multiLocaleName": {
+              "en_US": "New Business Development"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-31",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-32"
+            },
+            "name": "Affiliate Marketing",
+            "multiLocaleName": {
+              "en_US": "Affiliate Marketing"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-33",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-34"
+            },
+            "name": "Market Research",
+            "multiLocaleName": {
+              "en_US": "Market Research"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-35",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-36"
+            },
+            "name": "CRM",
+            "multiLocaleName": {
+              "en_US": "CRM"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-37",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-38"
+            },
+            "name": "Strategy",
+            "multiLocaleName": {
+              "en_US": "Strategy"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-39",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-40"
+            },
+            "name": "Product Management",
+            "multiLocaleName": {
+              "en_US": "Product Management"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-41",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-42"
+            },
+            "name": "Sales",
+            "multiLocaleName": {
+              "en_US": "Sales"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-43",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-44"
+            },
+            "name": "Professional Mentoring",
+            "multiLocaleName": {
+              "en_US": "Professional Mentoring"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-45",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-46"
+            },
+            "name": "Marketing",
+            "multiLocaleName": {
+              "en_US": "Marketing"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-47",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-48"
+            },
+            "name": "SEO",
+            "multiLocaleName": {
+              "en_US": "SEO"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          }
+        ]
+      },
+      "profileProjects": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileProjectsInjection",
+        "elements": []
+      },
+      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities",
+      "multiLocaleHeadline": {
+        "en_US": "Example Role | Example Specialty | Open to Opportunities"
+      },
+      "profileHonors": {
+        "paging": {
+          "total": 4,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileHonorsInjection",
+        "elements": [
+          {
+            "multiLocaleTitle": {
+              "en_US": "Comeback award - Economic Times"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-49"
+            },
+            "title": "Comeback award - Economic Times",
+            "issuer": "Economic Times",
+            "issuedOn": {
+              "year": 2016,
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.Date"
+            },
+            "entityUrn": "urn:li:fakeEntity:3-50",
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileHonor",
+            "multiLocaleIssuer": {
+              "en_US": "Economic Times"
+            }
+          },
+          {
+            "multiLocaleTitle": {
+              "en_US": "Economic Times 40 under 40"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-51"
+            },
+            "title": "Economic Times 40 under 40",
+            "issuer": "Times of India",
+            "issuedOn": {
+              "year": 2016,
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.Date"
+            },
+            "entityUrn": "urn:li:fakeEntity:3-52",
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileHonor",
+            "multiLocaleIssuer": {
+              "en_US": "Times of India"
+            }
+          },
+          {
+            "multiLocaleTitle": {
+              "en_US": "Fortune 40 under 40"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-53"
+            },
+            "title": "Fortune 40 under 40",
+            "issuer": "Fortune",
+            "issuedOn": {
+              "year": 2016,
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.Date"
+            },
+            "entityUrn": "urn:li:fakeEntity:3-54",
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileHonor",
+            "multiLocaleIssuer": {
+              "en_US": "Fortune"
+            }
+          },
+          {
+            "multiLocaleTitle": {
+              "en_US": "Fortune 40 under 40"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-55"
+            },
+            "title": "Fortune 40 under 40",
+            "issuer": "Fortune Magazine",
+            "issuedOn": {
+              "year": 2015,
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.Date"
+            },
+            "entityUrn": "urn:li:fakeEntity:3-56",
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileHonor",
+            "multiLocaleIssuer": {
+              "en_US": "Fortune Magazine"
+            }
+          }
+        ]
+      },
+      "memorialized": false,
+      "lastName": "Person3",
+      "profilePatents": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePatentsInjection",
+        "elements": []
+      },
+      "showPremiumSubscriberBadge": true,
+      "industry": {
+        "name": "Internet",
+        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+        "entityUrn": "urn:li:fakeEntity:3-57"
+      },
+      "geoLocationBackfilled": false,
+      "multiLocaleFullNamePronunciationAudio": {},
+      "profileTestScores": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTestScoresInjection",
+        "elements": []
+      },
+      "premium": true,
+      "influencer": true,
+      "entityUrn": "urn:li:fakeEntity:3-58",
+      "profileLanguages": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileLanguagesInjection",
+        "elements": []
+      },
+      "headline": "Example Role | Example Specialty | Open to Opportunities",
+      "creator": true,
+      "profileCourses": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileCoursesInjection",
+        "elements": []
+      },
+      "supportedLocales": [
+        {
+          "country": "US",
+          "language": "en",
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.Locale"
+        }
+      ],
+      "educationOnProfileTopCardShown": false,
+      "industryUrn": "urn:li:fsd_industry:6",
+      "profilePositionGroups": {
+        "paging": {
+          "total": 12,
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroupsInjection",
+        "elements": [
+          {
+            "entityUrn": "urn:li:fakeEntity:3-59",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 6,
+                "year": 2026
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp A"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-60"
+            },
+            "companyName": "Example Corp B",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "shouldShowSourceOfHireBadge": false,
+                  "multiLocaleTitle": {
+                    "en_US": "Head"
+                  },
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 6,
+                      "year": 2026
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp C"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:3-61"
+                  },
+                  "companyName": "Example Corp D",
+                  "title": "Head",
+                  "companyUrn": "urn:li:fsd_company:289891",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "entityUrn": "urn:li:fakeEntity:3-62",
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:4": {
+                        "name": "Computer Software",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:3-63"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:4"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 51,
+                      "end": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:3-64",
+                    "name": "REDACTED",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          },
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "REDACTED."
+                  },
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition"
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:4": {
+                  "name": "Computer Software",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:3-65"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:4"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 51,
+                "end": 200,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:3-66",
+              "name": "REDACTED",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    },
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "REDACTED."
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:289891"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-67",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 11,
+                "year": 2021
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp E"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-68"
+            },
+            "companyName": "Example Corp A",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "shouldShowSourceOfHireBadge": false,
+                  "multiLocaleTitle": {
+                    "en_US": "Independent Director"
+                  },
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 11,
+                      "year": 2021
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp B"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:3-69"
+                  },
+                  "companyName": "Example Corp C",
+                  "title": "Independent Director",
+                  "companyUrn": "urn:li:fsd_company:693038",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "entityUrn": "urn:li:fakeEntity:3-70",
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:112": {
+                        "name": "Electrical & Electronic Manufacturing",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:3-71"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:112"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 5001,
+                      "end": 10000,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:3-72",
+                    "name": "Syrma SGS Technology Limited",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "syrma-technology"
+                  },
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition"
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:112": {
+                  "name": "Electrical & Electronic Manufacturing",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:3-73"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:112"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 5001,
+                "end": 10000,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:3-74",
+              "name": "Syrma SGS Technology Limited",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "syrma-technology"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:693038"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-75",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 10,
+                "year": 2017
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp D"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-76"
+            },
+            "companyName": "Example Corp E",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 10,
+                      "year": 2017
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp A"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:3-77"
+                  },
+                  "companyName": "Example Corp B",
+                  "title": "Advisor To The Board",
+                  "companyUrn": "urn:li:fsd_company:3964",
+                  "geo": {
+                    "entityUrn": "urn:li:fakeEntity:3-78",
+                    "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1271139837"
+                  },
+                  "entityUrn": "urn:li:fakeEntity:3-79",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "India"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:81": {
+                        "name": "Newspapers",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:3-80"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:81"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 5001,
+                      "end": 10000,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:3-81",
+                    "name": "Bennett Coleman & Co. Ltd. (The Times of India)",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "bennett-coleman-and-co-ltd-times-of-india"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "India",
+                  "multiLocaleTitle": {
+                    "en_US": "Advisor To The Board"
+                  },
+                  "geoUrn": "urn:li:fsd_geo:102713980",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "India",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleLocationName": {
+                    "en_US": "India"
+                  }
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:81": {
+                  "name": "Newspapers",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:3-82"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:81"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 5001,
+                "end": 10000,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:3-83",
+              "name": "Bennett Coleman & Co. Ltd. (The Times of India)",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "bennett-coleman-and-co-ltd-times-of-india"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:3964"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-84",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 1,
+                "year": 2018
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp C"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-85"
+            },
+            "companyName": "Example Corp D",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 1,
+                      "year": 2018
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp E"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:3-86"
+                  },
+                  "companyName": "Example Corp A",
+                  "title": "Advisor",
+                  "companyUrn": "urn:li:fsd_company:1806556",
+                  "entityUrn": "urn:li:fakeEntity:3-87",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "Global"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:4": {
+                        "name": "Computer Software",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:3-88"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:4"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 51,
+                      "end": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:3-89",
+                    "name": "AngelList",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "angellist"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "Global",
+                  "multiLocaleTitle": {
+                    "en_US": "Advisor"
+                  },
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "Global",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleLocationName": {
+                    "en_US": "Global"
+                  }
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:4": {
+                  "name": "Computer Software",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:3-90"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:4"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 51,
+                "end": 200,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:3-91",
+              "name": "AngelList",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "angellist"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:1806556"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-92",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 1,
+                "year": 2016
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp B"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-93"
+            },
+            "companyName": "Example Corp C",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 1,
+                      "year": 2016
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp D"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:3-94"
+                  },
+                  "companyName": "Example Corp E",
+                  "description": "Go-Jek, Zilingo, Unacademy, Shuttl, Chillr, Innov8, Lifcare, TinyOwl, Spinny, Jugnoo, Mobile Premier League (MPL), Azani, Tapzo, Runnr, Flyrobe, Razorpay, Voonik, TVF, PocketAces, Rupeek, Dil Mil and 200+ more.",
+                  "title": "Investor",
+                  "entityUrn": "urn:li:fakeEntity:3-95",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "India and SE Asia"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "India and SE Asia",
+                  "multiLocaleTitle": {
+                    "en_US": "Investor"
+                  },
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "India and SE Asia",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleDescription": {
+                    "en_US": "Go-Jek, Zilingo, Unacademy, Shuttl, Chillr, Innov8, Lifcare, TinyOwl, Spinny, Jugnoo, Mobile Premier League (MPL), Azani, Tapzo, Runnr, Flyrobe, Razorpay, Voonik, TVF, PocketAces, Rupeek, Dil Mil and 200+ more."
+                  },
+                  "multiLocaleLocationName": {
+                    "en_US": "India and SE Asia"
+                  }
+                }
+              ]
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-96",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 4,
+                "year": 2018
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 6,
+                "year": 2026
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp A"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-97"
+            },
+            "companyName": "Example Corp B",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 4,
+                      "year": 2018
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 6,
+                      "year": 2026
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp C"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:3-98"
+                  },
+                  "companyName": "Example Corp D",
+                  "title": "Founder",
+                  "companyUrn": "urn:li:fsd_company:14485479",
+                  "geo": {
+                    "entityUrn": "urn:li:fakeEntity:3-99",
+                    "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1271139837"
+                  },
+                  "entityUrn": "urn:li:fakeEntity:3-100",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "Bengaluru"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:43": {
+                        "name": "Financial Services",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:3-101"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:43"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 501,
+                      "end": 1000,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:3-102",
+                    "name": "REDACTED",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          },
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "REDACTEDapp"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "Bengaluru",
+                  "multiLocaleTitle": {
+                    "en_US": "Founder"
+                  },
+                  "geoUrn": "urn:li:fsd_geo:105307040",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "Bengaluru",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleLocationName": {
+                    "en_US": "Bengaluru"
+                  }
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:43": {
+                  "name": "Financial Services",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:3-103"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:43"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 501,
+                "end": 1000,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:3-104",
+              "name": "REDACTED",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    },
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "REDACTEDapp"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:14485479"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-105",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 8,
+                "year": 2021
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 6,
+                "year": 2025
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp E"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-106"
+            },
+            "companyName": "Example Corp A",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "shouldShowSourceOfHireBadge": false,
+                  "multiLocaleTitle": {
+                    "en_US": "Independent Director"
+                  },
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 8,
+                      "year": 2021
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 6,
+                      "year": 2025
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp B"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:3-107"
+                  },
+                  "companyName": "Example Corp C",
+                  "title": "Independent Director",
+                  "companyUrn": "urn:li:fsd_company:554421",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "entityUrn": "urn:li:fakeEntity:3-108",
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:4": {
+                        "name": "Computer Software",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:3-109"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:4"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 1001,
+                      "end": 5000,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:3-110",
+                    "name": "Pine Labs",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "pinelabs"
+                  },
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition"
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:4": {
+                  "name": "Computer Software",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:3-111"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:4"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 1001,
+                "end": 5000,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:3-112",
+              "name": "Pine Labs",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "pinelabs"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:554421"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-113",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 1,
+                "year": 2017
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 12,
+                "year": 2017
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp D"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-114"
+            },
+            "companyName": "Example Corp E",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 1,
+                      "year": 2017
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 12,
+                      "year": 2017
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp A"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:3-115"
+                  },
+                  "companyName": "Example Corp B",
+                  "title": "Advisor",
+                  "companyUrn": "urn:li:fsd_company:11190",
+                  "entityUrn": "urn:li:fakeEntity:3-116",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "Global"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:106": {
+                        "name": "Venture Capital & Private Equity",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:3-117"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:106"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 51,
+                      "end": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:3-118",
+                    "name": "Sequoia Capital",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "sequoia"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "Global",
+                  "multiLocaleTitle": {
+                    "en_US": "Advisor"
+                  },
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "Global",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleLocationName": {
+                    "en_US": "Global"
+                  }
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:106": {
+                  "name": "Venture Capital & Private Equity",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:3-119"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:106"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 51,
+                "end": 200,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:3-120",
+              "name": "Sequoia Capital",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "sequoia"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:11190"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-121",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 1,
+                "year": 2016
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 5,
+                "year": 2017
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp C"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-122"
+            },
+            "companyName": "Example Corp D",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 1,
+                      "year": 2016
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 5,
+                      "year": 2017
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp E"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:3-123"
+                  },
+                  "companyName": "Example Corp A",
+                  "title": "Chairman",
+                  "companyUrn": "urn:li:fsd_company:1490499",
+                  "geo": {
+                    "entityUrn": "urn:li:fakeEntity:3-124",
+                    "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1271139837"
+                  },
+                  "entityUrn": "urn:li:fakeEntity:3-125",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "India"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:100": {
+                        "name": "Non-profit Organization Management",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:3-126"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:100"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 51,
+                      "end": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:3-127",
+                    "name": "Internet and Mobile Association of India",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "internet-and-mobile-association-of-india"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "India",
+                  "multiLocaleTitle": {
+                    "en_US": "Chairman"
+                  },
+                  "geoUrn": "urn:li:fsd_geo:102713980",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "India",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleLocationName": {
+                    "en_US": "India"
+                  }
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:100": {
+                  "name": "Non-profit Organization Management",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:3-128"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:100"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 51,
+                "end": 200,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:3-129",
+              "name": "Internet and Mobile Association of India",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "internet-and-mobile-association-of-india"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:1490499"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:3-130",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 1,
+                "year": 2016
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 12,
+                "year": 2016
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp B"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:3-131"
+            },
+            "companyName": "Example Corp C",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "shouldShowSourceOfHireBadge": false,
+                  "multiLocaleTitle": {
+                    "en_US": "Part-time Partner"
+                  },
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 1,
+                      "year": 2016
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 12,
+                      "year": 2016
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp D"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:3-132"
+                  },
+                  "companyName": "Example Corp E",
+                  "title": "Part-time Partner",
+                  "companyUrn": "urn:li:fsd_company:167872",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "entityUrn": "urn:li:fakeEntity:3-133",
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:106": {
+                        "name": "Venture Capital & Private Equity",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:3-134"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:106"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 51,
+                      "end": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:3-135",
+                    "name": "Y Combinator",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          },
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "y-combinator"
+                  },
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition"
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:106": {
+                  "name": "Venture Capital & Private Equity",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:3-136"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:106"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 51,
+                "end": 200,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:3-137",
+              "name": "Y Combinator",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "y-combinator"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:167872"
+          }
+        ]
+      },
+      "geoLocation": {
+        "geo": {
+          "countryUrn": "urn:li:fsd_geo:102713980",
+          "country": {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.CountryGeo",
+            "entityUrn": "urn:li:fakeEntity:3-138",
+            "defaultLocalizedName": "India"
+          },
+          "defaultLocalizedNameWithoutCountryName": "Bengaluru, Karnataka",
+          "entityUrn": "urn:li:fakeEntity:3-139",
+          "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.Geo",
+          "defaultLocalizedName": "Bengaluru, Karnataka, India"
+        },
+        "geoUrn": "urn:li:fsd_geo:109710172",
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfileGeoLocation"
+      },
+      "profileRingStatusCollection": {
+        "paging": {
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1936086081",
+        "elements": []
+      },
+      "location": {
+        "countryCode": "IN",
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfileLocation"
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en",
+        "$recipeType": "com.linkedin.voyager.dash.deco.common.Locale"
+      }
+    }
+  ],
+  "paging": {
+    "count": 10,
+    "start": 0,
+    "links": []
+  }
+}

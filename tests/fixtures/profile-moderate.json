@@ -1,0 +1,1387 @@
+{
+  "elements": [
+    {
+      "profileVideoPreview": {
+        "paging": {
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon429038699",
+        "elements": []
+      },
+      "profileTreasuryMediaProfile": {
+        "paging": {
+          "total": 0,
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+        "elements": []
+      },
+      "objectUrn": "urn:li:fakeEntity:2-1",
+      "multiLocaleLastName": {
+        "en_US": "Person2"
+      },
+      "pronounUnion": {
+        "standardizedPronoun": "HE_HIM"
+      },
+      "multiLocaleFirstNamePronunciationHint": {},
+      "profileOrganizations": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileOrganizationsInjection",
+        "elements": []
+      },
+      "multiLocaleLastNamePronunciationHint": {},
+      "profileEducations": {
+        "paging": {
+          "total": 1,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileEducationsInjection",
+        "elements": [
+          {
+            "dateRange": {
+              "start": {
+                "year": 2020,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date"
+              },
+              "end": {
+                "year": 2024,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-2"
+            },
+            "profileTreasuryMediaEducation": {
+              "paging": {
+                "total": 0,
+                "count": 10,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+              "elements": []
+            },
+            "standardizedFieldOfStudy": {
+              "entityUrn": "urn:li:fakeEntity:2-3",
+              "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon2017432627"
+            },
+            "companyUrn": "urn:li:fsd_company:13370557",
+            "schoolUrn": "urn:li:fsd_school:3155482",
+            "entityUrn": "urn:li:fakeEntity:2-4",
+            "school": {
+              "entityUrn": "urn:li:fakeEntity:2-5",
+              "name": "Shri Ramdeobaba College of Engineering and Management",
+              "active": true,
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImage",
+                  "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQGcoi66Zd5z2Q",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.organization.MiniSchool",
+              "url": "https://example.com/redacted"
+            },
+            "company": {
+              "entityUrn": "urn:li:fakeEntity:2-6",
+              "name": "Shri Ramdeobaba College of Engineering and Management",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImage",
+                  "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQGcoi66Zd5z2Q",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.organization.MiniCompany",
+              "url": "https://example.com/redacted"
+            },
+            "standardizedFieldOfStudyUrn": "urn:li:fsd_fieldOfStudy:100176",
+            "schoolName": "Example University A",
+            "fieldOfStudy": "Information Technology",
+            "degree": {
+              "entityUrn": "urn:li:fakeEntity:2-7",
+              "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon875016385"
+            },
+            "degreeName": "Bachelor of Technology",
+            "multiLocaleGrade": {
+              "en_US": "8.83"
+            },
+            "multiLocaleSchoolName": {
+              "en_US": "Example University B"
+            },
+            "grade": "8.83",
+            "multiLocaleFieldOfStudy": {
+              "en_US": "Information Technology"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileEducation",
+            "degreeUrn": "urn:li:fsd_degree:250",
+            "multiLocaleDegreeName": {
+              "en_US": "Bachelor of Technology"
+            }
+          }
+        ]
+      },
+      "multiLocaleFirstName": {
+        "en_US": "Test"
+      },
+      "companyNameOnProfileTopCardShown": true,
+      "profilePublications": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePublicationsInjection",
+        "elements": []
+      },
+      "profileCertifications": {
+        "paging": {
+          "total": 1,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileCertificationsInjection",
+        "elements": [
+          {
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 12,
+                "year": 2025
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-8"
+            },
+            "multiLocaleLicenseNumber": {
+              "en_US": "183B97017A1AE357"
+            },
+            "companyUrn": "urn:li:fsd_company:1035",
+            "url": "https://example.com/redacted",
+            "multiLocaleAuthority": {
+              "en_US": "Microsoft"
+            },
+            "entityUrn": "urn:li:fakeEntity:2-9",
+            "authority": "Microsoft",
+            "name": "Microsoft Certified: Azure Fundamentals",
+            "multiLocaleName": {
+              "en_US": "Microsoft Certified: Azure Fundamentals"
+            },
+            "company": {
+              "entityUrn": "urn:li:fakeEntity:2-10",
+              "name": "Microsoft",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    },
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkableMiniCompany",
+              "universalName": "microsoft",
+              "url": "https://example.com/redacted"
+            },
+            "licenseNumber": "183B97017A1AE357",
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileCertification",
+            "displaySource": "microsoft.com"
+          }
+        ]
+      },
+      "publicIdentifier": "test-person-2",
+      "trackingId": "REDACTED_TRACKING_ID",
+      "multiLocaleSummary": {
+        "en_US": "This is a sanitized example summary used for testing purposes only."
+      },
+      "profileVolunteerExperiences": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileVolunteerExperiencesInjection",
+        "elements": []
+      },
+      "versionTag": "urn:li:fakeEntity:2-11",
+      "profilePicture": {
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecEditableProfilePicture",
+        "displayImageUrn": "urn:li:digitalmediaAsset:D5603AQH9XtzoQE6vTA",
+        "displayImageReference": {
+          "vectorImage": {
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+            "rootUrl": "https://example.com/redacted",
+            "artifacts": [
+              {
+                "width": 400,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 400
+              },
+              {
+                "width": 100,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 100
+              },
+              {
+                "width": 200,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 200
+              },
+              {
+                "width": 800,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 800
+              }
+            ]
+          }
+        },
+        "photoFilterEditInfo": {
+          "bottomLeft": {
+            "x": 0,
+            "y": 0.835503876209259,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "vignette": 0,
+          "bottomRight": {
+            "x": 1,
+            "y": 0.835503876209259,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "topRight": {
+            "x": 1,
+            "y": 0.0855039730668068,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "saturation": 0,
+          "brightness": 0,
+          "photoFilterType": "ORIGINAL",
+          "contrast": 0,
+          "topLeft": {
+            "x": 0,
+            "y": 0.0855039730668068,
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.Coordinate2DFull"
+          },
+          "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1309211116"
+        }
+      },
+      "firstName": "Test",
+      "profileSkills": {
+        "paging": {
+          "total": 47,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkillsInjection",
+        "elements": [
+          {
+            "entityUrn": "urn:li:fakeEntity:2-12",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-13"
+            },
+            "name": "Logical Volume Manager (LVM)",
+            "multiLocaleName": {
+              "en_US": "Logical Volume Manager (LVM)"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-14",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-15"
+            },
+            "name": "Network File System (NFS)",
+            "multiLocaleName": {
+              "en_US": "Network File System (NFS)"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-16",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-17"
+            },
+            "name": "Kubernetes",
+            "multiLocaleName": {
+              "en_US": "Kubernetes"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-18",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-19"
+            },
+            "name": "Secure File Transfer Protocol (SFTP)",
+            "multiLocaleName": {
+              "en_US": "Secure File Transfer Protocol (SFTP)"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-20",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-21"
+            },
+            "name": "Ansible",
+            "multiLocaleName": {
+              "en_US": "Ansible"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-22",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-23"
+            },
+            "name": "Cron",
+            "multiLocaleName": {
+              "en_US": "Cron"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-24",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-25"
+            },
+            "name": "Package Management",
+            "multiLocaleName": {
+              "en_US": "Package Management"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-26",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-27"
+            },
+            "name": "Ubuntu",
+            "multiLocaleName": {
+              "en_US": "Ubuntu"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-28",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-29"
+            },
+            "name": "Suse",
+            "multiLocaleName": {
+              "en_US": "Suse"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-30",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-31"
+            },
+            "name": "Secure Shell (SSH)",
+            "multiLocaleName": {
+              "en_US": "Secure Shell (SSH)"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-32",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-33"
+            },
+            "name": "Elastic Stack (ELK)",
+            "multiLocaleName": {
+              "en_US": "Elastic Stack (ELK)"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-34",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-35"
+            },
+            "name": "Network-Attached Storage (NAS)",
+            "multiLocaleName": {
+              "en_US": "Network-Attached Storage (NAS)"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-36",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-37"
+            },
+            "name": "Cloud Computing",
+            "multiLocaleName": {
+              "en_US": "Cloud Computing"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-38",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-39"
+            },
+            "name": "MySQL",
+            "multiLocaleName": {
+              "en_US": "MySQL"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-40",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-41"
+            },
+            "name": "Android Development",
+            "multiLocaleName": {
+              "en_US": "Android Development"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-42",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-43"
+            },
+            "name": "Root Cause Analysis (RCA)",
+            "multiLocaleName": {
+              "en_US": "Root Cause Analysis (RCA)"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-44",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-45"
+            },
+            "name": "Active Directory",
+            "multiLocaleName": {
+              "en_US": "Active Directory"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-46",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-47"
+            },
+            "name": "Shell Scripting",
+            "multiLocaleName": {
+              "en_US": "Shell Scripting"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-48",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-49"
+            },
+            "name": "System Administration",
+            "multiLocaleName": {
+              "en_US": "System Administration"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-50",
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-51"
+            },
+            "name": "Networking",
+            "multiLocaleName": {
+              "en_US": "Networking"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileSkill"
+          }
+        ]
+      },
+      "profileProjects": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileProjectsInjection",
+        "elements": []
+      },
+      "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities",
+      "multiLocaleHeadline": {
+        "en_US": "Example Role | Example Specialty | Open to Opportunities"
+      },
+      "profileHonors": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileHonorsInjection",
+        "elements": []
+      },
+      "memorialized": false,
+      "lastName": "Person2",
+      "profilePatents": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePatentsInjection",
+        "elements": []
+      },
+      "showPremiumSubscriberBadge": false,
+      "industry": {
+        "name": "Computer Software",
+        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+        "entityUrn": "urn:li:fakeEntity:2-52"
+      },
+      "geoLocationBackfilled": false,
+      "multiLocaleFullNamePronunciationAudio": {},
+      "profileTestScores": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTestScoresInjection",
+        "elements": []
+      },
+      "premium": true,
+      "influencer": false,
+      "entityUrn": "urn:li:fakeEntity:2-53",
+      "profileLanguages": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileLanguagesInjection",
+        "elements": []
+      },
+      "headline": "Example Role | Example Specialty | Open to Opportunities",
+      "summary": "This is a sanitized example summary used for testing purposes only.",
+      "creator": false,
+      "profileCourses": {
+        "paging": {
+          "total": 0,
+          "count": 20,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileCoursesInjection",
+        "elements": []
+      },
+      "supportedLocales": [
+        {
+          "country": "US",
+          "language": "en",
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.Locale"
+        }
+      ],
+      "educationOnProfileTopCardShown": true,
+      "industryUrn": "urn:li:fsd_industry:4",
+      "profilePositionGroups": {
+        "paging": {
+          "total": 2,
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroupsInjection",
+        "elements": [
+          {
+            "entityUrn": "urn:li:fakeEntity:2-54",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 8,
+                "year": 2024
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp A"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-55"
+            },
+            "companyName": "Example Corp B",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 3,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 1,
+                      "year": 2026
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp C"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:2-56"
+                  },
+                  "companyName": "Example Corp D",
+                  "description": "• Administer and maintain enterprise Linux servers in production environments, ensuring high availability, optimal performance, and adherence to organizational security standards.\n• Manage user lifecycle activities including account provisioning, access control, sudo privilege management, Active Directory integration, and privileged access administration through CyberArk.\n• Perform storage administration tasks such as LVM management, disk provisioning and expansion, file system maintenance, NFS and NAS configuration, and troubleshooting storage-related issues.\n• Monitor infrastructure health and system performance using Zabbix, proactively investigate alerts, analyze system logs, and implement corrective actions to minimize downtime and improve reliability.\n• Troubleshoot complex operating system, application, and infrastructure issues using log analysis tools such as journalctl and system logs, ensuring timely resolution of incidents.\n• Respond to production incidents and service outages, perform root cause analysis (RCA), coordinate with cross-functional teams, and restore services within agreed SLA timelines.\n• Manage Linux services and system operations using systemctl, perform package management using zypper, and execute routine maintenance activities including patching and upgrades.\n• Support change management processes by implementing approved changes, validating system functionality, and ensuring minimal impact on business-critical services.",
+                  "title": "Linux Engineer",
+                  "companyUrn": "urn:li:fsd_company:7603932",
+                  "geo": {
+                    "entityUrn": "urn:li:fakeEntity:2-57",
+                    "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1271139837"
+                  },
+                  "employmentTypeUrn": "urn:li:fsd_employmentType:12",
+                  "entityUrn": "urn:li:fakeEntity:2-58",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "Hyderabad"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:96": {
+                        "name": "Information Technology & Services",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:2-59"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:96"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 1001,
+                      "end": 5000,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:2-60",
+                    "name": "REDACTED Services",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          },
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "REDACTED"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "Hyderabad",
+                  "multiLocaleTitle": {
+                    "en_US": "Linux Engineer"
+                  },
+                  "employmentType": {
+                    "name": "Full-time",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                    "entityUrn": "urn:li:fakeEntity:2-61",
+                    "companyNameRequired": true
+                  },
+                  "geoUrn": "urn:li:fsd_geo:105556991",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "Hyderabad",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleDescription": {
+                    "en_US": "• Administer and maintain enterprise Linux servers in production environments, ensuring high availability, optimal performance, and adherence to organizational security standards.\n• Manage user lifecycle activities including account provisioning, access control, sudo privilege management, Active Directory integration, and privileged access administration through CyberArk.\n• Perform storage administration tasks such as LVM management, disk provisioning and expansion, file system maintenance, NFS and NAS configuration, and troubleshooting storage-related issues.\n• Monitor infrastructure health and system performance using Zabbix, proactively investigate alerts, analyze system logs, and implement corrective actions to minimize downtime and improve reliability.\n• Troubleshoot complex operating system, application, and infrastructure issues using log analysis tools such as journalctl and system logs, ensuring timely resolution of incidents.\n• Respond to production incidents and service outages, perform root cause analysis (RCA), coordinate with cross-functional teams, and restore services within agreed SLA timelines.\n• Manage Linux services and system operations using systemctl, perform package management using zypper, and execute routine maintenance activities including patching and upgrades.\n• Support change management processes by implementing approved changes, validating system functionality, and ensuring minimal impact on business-critical services."
+                  },
+                  "multiLocaleLocationName": {
+                    "en_US": "Hyderabad"
+                  }
+                },
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 11,
+                      "year": 2024
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 1,
+                      "year": 2026
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp E"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:2-62"
+                  },
+                  "companyName": "Example Corp A",
+                  "description": "• Supported day-to-day Linux server administration and operational activities.\n • Managed user accounts, file systems, permissions, and service configurations.\n • Assisted in troubleshooting server, storage, and network-related issues.\n • Performed routine health checks, patching, and monitoring activities.\n • Worked on incident resolution, change requests, and service restoration tasks.",
+                  "title": "Associate Engineer",
+                  "companyUrn": "urn:li:fsd_company:7603932",
+                  "geo": {
+                    "entityUrn": "urn:li:fakeEntity:2-63",
+                    "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1271139837"
+                  },
+                  "employmentTypeUrn": "urn:li:fsd_employmentType:12",
+                  "entityUrn": "urn:li:fakeEntity:2-64",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "Hyderabad"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:96": {
+                        "name": "Information Technology & Services",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:2-65"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:96"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 1001,
+                      "end": 5000,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:2-66",
+                    "name": "REDACTED Services",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          },
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "REDACTED"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "Hyderabad",
+                  "multiLocaleTitle": {
+                    "en_US": "Associate Engineer"
+                  },
+                  "employmentType": {
+                    "name": "Full-time",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                    "entityUrn": "urn:li:fakeEntity:2-67",
+                    "companyNameRequired": true
+                  },
+                  "geoUrn": "urn:li:fsd_geo:105556991",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "Hyderabad",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleDescription": {
+                    "en_US": "• Supported day-to-day Linux server administration and operational activities.\n • Managed user accounts, file systems, permissions, and service configurations.\n • Assisted in troubleshooting server, storage, and network-related issues.\n • Performed routine health checks, patching, and monitoring activities.\n • Worked on incident resolution, change requests, and service restoration tasks."
+                  },
+                  "multiLocaleLocationName": {
+                    "en_US": "Hyderabad"
+                  }
+                },
+                {
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 8,
+                      "year": 2024
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 10,
+                      "year": 2024
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp B"
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:2-68"
+                  },
+                  "companyName": "Example Corp C",
+                  "description": "• Completed training on Linux Administration, Windows Server Administration, AWS Cloud, Microsoft Azure, and Networking fundamentals.\n• Gained hands-on experience with user management, file systems, networking concepts, and server administration tasks.\n• Worked on cloud service provisioning and management exercises in AWS and Azure lab environments.\n• Learned networking fundamentals including routing, switching, subnetting, and network design using Cisco Packet Tracer.\n• Assisted senior engineers in monitoring, troubleshooting, and maintaining enterprise infrastructure environments.\n• Developed understanding of ITIL processes, incident management, and change management workflows.",
+                  "title": "Graduate Engineering Trainee",
+                  "companyUrn": "urn:li:fsd_company:7603932",
+                  "geo": {
+                    "entityUrn": "urn:li:fakeEntity:2-69",
+                    "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1271139837"
+                  },
+                  "employmentTypeUrn": "urn:li:fsd_employmentType:19",
+                  "entityUrn": "urn:li:fakeEntity:2-70",
+                  "multiLocaleGeoLocationName": {
+                    "en_US": "Hyderabad"
+                  },
+                  "company": {
+                    "industry": {
+                      "urn:li:fsd_industry:96": {
+                        "name": "Information Technology & Services",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:2-71"
+                      }
+                    },
+                    "industryUrns": [
+                      "urn:li:fsd_industry:96"
+                    ],
+                    "url": "https://example.com/redacted",
+                    "employeeCountRange": {
+                      "start": 1001,
+                      "end": 5000,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:2-72",
+                    "name": "REDACTED Services",
+                    "logo": {
+                      "vectorImage": {
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                        "rootUrl": "https://example.com/redacted",
+                        "artifacts": [
+                          {
+                            "width": 400,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 400
+                          },
+                          {
+                            "width": 200,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 200
+                          },
+                          {
+                            "width": 100,
+                            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                            "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                            "expiresAt": 1789603200000,
+                            "height": 100
+                          }
+                        ]
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "REDACTED"
+                  },
+                  "shouldShowSourceOfHireBadge": false,
+                  "locationName": "Hyderabad",
+                  "multiLocaleTitle": {
+                    "en_US": "Graduate Engineering Trainee"
+                  },
+                  "employmentType": {
+                    "name": "Trainee",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                    "entityUrn": "urn:li:fakeEntity:2-73",
+                    "companyNameRequired": true
+                  },
+                  "geoUrn": "urn:li:fsd_geo:105556991",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 0,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": []
+                  },
+                  "geoLocationName": "Hyderabad",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "multiLocaleDescription": {
+                    "en_US": "• Completed training on Linux Administration, Windows Server Administration, AWS Cloud, Microsoft Azure, and Networking fundamentals.\n• Gained hands-on experience with user management, file systems, networking concepts, and server administration tasks.\n• Worked on cloud service provisioning and management exercises in AWS and Azure lab environments.\n• Learned networking fundamentals including routing, switching, subnetting, and network design using Cisco Packet Tracer.\n• Assisted senior engineers in monitoring, troubleshooting, and maintaining enterprise infrastructure environments.\n• Developed understanding of ITIL processes, incident management, and change management workflows."
+                  },
+                  "multiLocaleLocationName": {
+                    "en_US": "Hyderabad"
+                  },
+                  "sourceOfHireType": "OTHER"
+                }
+              ]
+            },
+            "company": {
+              "industry": {
+                "urn:li:fsd_industry:96": {
+                  "name": "Information Technology & Services",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:2-74"
+                }
+              },
+              "industryUrns": [
+                "urn:li:fsd_industry:96"
+              ],
+              "url": "https://example.com/redacted",
+              "employeeCountRange": {
+                "start": 1001,
+                "end": 5000,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:2-75",
+              "name": "REDACTED Services",
+              "logo": {
+                "vectorImage": {
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                  "rootUrl": "https://example.com/redacted",
+                  "artifacts": [
+                    {
+                      "width": 400,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 400
+                    },
+                    {
+                      "width": 200,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 200
+                    },
+                    {
+                      "width": 100,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                      "expiresAt": 1789603200000,
+                      "height": 100
+                    }
+                  ]
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "REDACTED"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:7603932"
+          },
+          {
+            "entityUrn": "urn:li:fakeEntity:2-76",
+            "dateRange": {
+              "start": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 9,
+                "year": 2022
+              },
+              "end": {
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                "month": 11,
+                "year": 2022
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+            },
+            "multiLocaleCompanyName": {
+              "en_US": "Example Corp D"
+            },
+            "$anti_abuse_metadata": {
+              "$anti_abuse_uuid": "urn:li:fakeEntity:2-77"
+            },
+            "companyName": "Example Corp E",
+            "profilePositionInPositionGroup": {
+              "paging": {
+                "total": 1,
+                "count": 20,
+                "start": 0,
+                "links": [],
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionsInGroup",
+              "elements": [
+                {
+                  "shouldShowSourceOfHireBadge": false,
+                  "multiLocaleTitle": {
+                    "en_US": "Intern"
+                  },
+                  "dateRange": {
+                    "start": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 9,
+                      "year": 2022
+                    },
+                    "end": {
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.Date",
+                      "month": 11,
+                      "year": 2022
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.common.DateRange"
+                  },
+                  "multiLocaleCompanyName": {
+                    "en_US": "Example Corp A"
+                  },
+                  "employmentType": {
+                    "name": "Internship",
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.EmploymentType",
+                    "entityUrn": "urn:li:fakeEntity:2-78",
+                    "companyNameRequired": true
+                  },
+                  "$anti_abuse_metadata": {
+                    "$anti_abuse_uuid": "urn:li:fakeEntity:2-79"
+                  },
+                  "companyName": "Example Corp B",
+                  "title": "Intern",
+                  "companyUrn": "urn:li:fsd_company:77148989",
+                  "profileTreasuryMediaPosition": {
+                    "paging": {
+                      "total": 1,
+                      "count": 10,
+                      "start": 0,
+                      "links": [],
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMediaItemsInjection",
+                    "elements": [
+                      {
+                        "multiLocaleTitle": {
+                          "en_US": "Experience Letter "
+                        },
+                        "data": {
+                          "Url": "https://accounts.google.com/ServiceLogin?continue=https://drive.google.com/file/d/1_AXMkglyTaTbYNA1kykdgI9juE1yQ1h3/view?usp%3Ddrivesdk&dsh=S1140970480:1669965135306516&flowEntry=ServiceLogin&followup=https://drive.google.com/file/d/1_AXMkglyTaTbYNA1kykdgI9juE1yQ1h3/view?usp%3Ddrivesdk&ifkv=ARgdvAsEwBTTh9ua5X83CckaWQ7F76uHAoizPI-hcnw2BRGhaWzjho4HFAcAo4Hl8E7zPPYm1HODHg&nojavascript=1&service=wise"
+                        },
+                        "entityUrn": "urn:li:fakeEntity:2-80",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfileTreasuryMedia",
+                        "title": "Experience Letter ",
+                        "providerName": "accounts.google.com",
+                        "previewImage": {
+                          "attributes": [
+                            {
+                              "$recipeType": "com.linkedin.voyager.dash.deco.common.image.ImageAttribute",
+                              "detailDataUnion": {
+                                "vectorImage": {
+                                  "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+                                  "rootUrl": "https://example.com/redacted",
+                                  "artifacts": [
+                                    {
+                                      "width": 192,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788652800000,
+                                      "height": 192
+                                    },
+                                    {
+                                      "width": 160,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788652800000,
+                                      "height": 160
+                                    },
+                                    {
+                                      "width": 192,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788652800000,
+                                      "height": 192
+                                    },
+                                    {
+                                      "width": 192,
+                                      "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                                      "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                                      "expiresAt": 1788652800000,
+                                      "height": 192
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "$recipeType": "com.linkedin.voyager.dash.deco.common.image.ImageViewModel"
+                        }
+                      }
+                    ]
+                  },
+                  "employmentTypeUrn": "urn:li:fsd_employmentType:18",
+                  "entityUrn": "urn:li:fakeEntity:2-81",
+                  "company": {
+                    "employeeCountRange": {
+                      "start": 2,
+                      "end": 10,
+                      "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+                    },
+                    "entityUrn": "urn:li:fakeEntity:2-82",
+                    "name": "Feynman Innovations Pvt. Ltd.",
+                    "industry": {
+                      "urn:li:fsd_industry:48": {
+                        "name": "Construction",
+                        "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                        "entityUrn": "urn:li:fakeEntity:2-83"
+                      }
+                    },
+                    "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+                    "universalName": "feynman-innovations-pvt-ltd",
+                    "industryUrns": [
+                      "urn:li:fsd_industry:48"
+                    ],
+                    "url": "https://example.com/redacted"
+                  },
+                  "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePosition",
+                  "sourceOfHireType": "OTHER"
+                }
+              ]
+            },
+            "company": {
+              "employeeCountRange": {
+                "start": 2,
+                "end": 10,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.IntegerRange"
+              },
+              "entityUrn": "urn:li:fakeEntity:2-84",
+              "name": "Feynman Innovations Pvt. Ltd.",
+              "industry": {
+                "urn:li:fsd_industry:48": {
+                  "name": "Construction",
+                  "$recipeType": "com.linkedin.voyager.dash.deco.common.Industry",
+                  "entityUrn": "urn:li:fakeEntity:2-85"
+                }
+              },
+              "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.LinkablePositionCompany",
+              "universalName": "feynman-innovations-pvt-ltd",
+              "industryUrns": [
+                "urn:li:fsd_industry:48"
+              ],
+              "url": "https://example.com/redacted"
+            },
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.FullProfilePositionGroup",
+            "companyUrn": "urn:li:fsd_company:77148989"
+          }
+        ]
+      },
+      "geoLocation": {
+        "geo": {
+          "countryUrn": "urn:li:fsd_geo:102713980",
+          "country": {
+            "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.CountryGeo",
+            "entityUrn": "urn:li:fakeEntity:2-86",
+            "defaultLocalizedName": "India"
+          },
+          "defaultLocalizedNameWithoutCountryName": "Hyderabad, Telangana",
+          "entityUrn": "urn:li:fakeEntity:2-87",
+          "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.Geo",
+          "defaultLocalizedName": "Hyderabad, Telangana, India"
+        },
+        "geoUrn": "urn:li:fsd_geo:105556991",
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfileGeoLocation"
+      },
+      "profileRingStatusCollection": {
+        "paging": {
+          "count": 10,
+          "start": 0,
+          "links": [],
+          "$recipeType": "com.linkedin.voyager.dash.deco.common.FullPaging"
+        },
+        "$recipeType": "com.linkedin.deco.recipe.anonymous.Anon1936086081",
+        "elements": []
+      },
+      "location": {
+        "countryCode": "IN",
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfileLocation"
+      },
+      "backgroundPicture": {
+        "$recipeType": "com.linkedin.voyager.dash.deco.identity.profile.ProfilePhotoDecoSpecEditableBackgroundPicture",
+        "displayImageUrn": "urn:li:digitalmediaAsset:D5616AQELAtHs5Ovy2g",
+        "displayImageReference": {
+          "vectorImage": {
+            "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorImageOnlyRootUrlAndAttribution",
+            "rootUrl": "https://example.com/redacted",
+            "artifacts": [
+              {
+                "width": 800,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 200
+              },
+              {
+                "width": 1400,
+                "$recipeType": "com.linkedin.voyager.dash.deco.common.VectorArtifact",
+                "fileIdentifyingUrlPathSegment": "https://example.com/redacted",
+                "expiresAt": 1789603200000,
+                "height": 350
+              }
+            ]
+          }
+        }
+      },
+      "primaryLocale": {
+        "country": "US",
+        "language": "en",
+        "$recipeType": "com.linkedin.voyager.dash.deco.common.Locale"
+      }
+    }
+  ],
+  "paging": {
+    "count": 10,
+    "start": 0,
+    "links": []
+  }
+}
