@@ -30,6 +30,8 @@ This technique violates LinkedIn's User Agreement. The LinkedIn account whose se
 
 **Phase 3 (built, additive):** bring-your-own-session — see above. Unrelated to and independent of Phase 2; it changes *where* an already-manually-captured session lives and *who* it belongs to, not *how* it's obtained. Full design rationale in `docs/specs/linkedin-profile-api.md`.
 
+For diagrams of the full request pipeline (including the three-tier session resolution) and module boundaries, see [ARCHITECTURE.md](ARCHITECTURE.md).
+
 ## Setup
 
 ### Prerequisites
