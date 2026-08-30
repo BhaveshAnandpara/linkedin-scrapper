@@ -2,7 +2,7 @@
 // validate -> rate limit -> session -> fetch -> parse -> respond.
 
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { getSession } from "../src/linkedin/session.js";
+import { resolveRequestSession } from "../src/linkedin/sessionResolver.js";
 import { fetchRawProfile, type ProfileFetchError } from "../src/linkedin/profileFetcher.js";
 import { parseProfile } from "../src/linkedin/profileParser.js";
 import { apiError, statusForErrorCode } from "../src/utils/errors.js";
@@ -38,9 +38,20 @@ export default async function handler(req: VercelRequest, res: VercelResponse): 
     );
   }
 
-  const sessionResult = getSession();
+  const authHeader = req.headers.authorization;
+  const bearerToken = authHeader?.startsWith("Bearer ") ? authHeader.slice(7).trim() : undefined;
+
+  const sessionResult = await resolveRequestSession(bearerToken);
   if (!sessionResult.ok) {
-    respondError(res, "INTERNAL_ERROR", "LinkedIn session is not configured on the server.");
+    if (sessionResult.error === "SESSION_EXPIRED") {
+      respondError(
+        res,
+        "SESSION_EXPIRED",
+        "The provided session token is invalid, unrecognized, or has expired.",
+      );
+    } else {
+      respondError(res, "INTERNAL_ERROR", "LinkedIn session is not configured on the server.");
+    }
     return;
   }
 

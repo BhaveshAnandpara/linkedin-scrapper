@@ -23,6 +23,24 @@ const DEFAULT_USER_AGENT =
  * browser's cookie header here (e.g. bcookie, bscookie, lidc, ...) if the
  * minimal pair starts getting challenged.
  */
+/**
+ * Pure: assembles a Session from already-known raw values, regardless of
+ * where they came from (env vars here, Redis-stored sessions in
+ * sessionResolver.ts). Extracted so both sources share the exact same
+ * cookie-header-assembly logic instead of duplicating it.
+ */
+export function buildSession(
+  liAt: string,
+  jsessionRaw: string,
+  userAgent?: string,
+  extraCookies?: string,
+): Session {
+  const csrfToken = jsessionRaw.replace(/^"|"$/g, "");
+  const extra = extraCookies ? `; ${extraCookies}` : "";
+  const cookieHeader = `li_at=${liAt}; JSESSIONID="${csrfToken}"${extra}`;
+  return { cookieHeader, csrfToken, userAgent: userAgent || DEFAULT_USER_AGENT };
+}
+
 export function getSession(env: NodeJS.ProcessEnv = process.env): SessionResult {
   const liAt = env.LI_AT_COOKIE;
   const jsessionRaw = env.LI_JSESSIONID;
@@ -30,10 +48,8 @@ export function getSession(env: NodeJS.ProcessEnv = process.env): SessionResult 
     return { ok: false, error: "SESSION_NOT_CONFIGURED" };
   }
 
-  const csrfToken = jsessionRaw.replace(/^"|"$/g, "");
-  const extra = env.LI_EXTRA_COOKIES ? `; ${env.LI_EXTRA_COOKIES}` : "";
-  const cookieHeader = `li_at=${liAt}; JSESSIONID="${csrfToken}"${extra}`;
-  const userAgent = env.LI_USER_AGENT || DEFAULT_USER_AGENT;
-
-  return { ok: true, session: { cookieHeader, csrfToken, userAgent } };
+  return {
+    ok: true,
+    session: buildSession(liAt, jsessionRaw, env.LI_USER_AGENT, env.LI_EXTRA_COOKIES),
+  };
 }
