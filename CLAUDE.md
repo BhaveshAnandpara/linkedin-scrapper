@@ -56,15 +56,17 @@ Each milestone should be verified before moving to the next, and committed once 
 | 9 | Automated login | `scripts/test-login.ts` logs in against real credentials and reports success/challenge clearly |
 | 10 | Session self-healing | On `SESSION_EXPIRED`, the API automatically re-logs in, caches the new session in Redis, and retries — manual session env vars become the fallback rather than the only path |
 
-**Phase 3 — stretch, only if time remains (separate from and unrelated to Phase 2)**
+**Phase 3 — stretch, only if time remains (separate from and unrelated to Phase 2) — ✅ COMPLETE, deployed 2026-08-30**
 
 | # | Milestone | Done when |
 |---|---|---|
-| 11 | Session store | `src/sessions/sessionStore.ts` reads/writes LinkedIn sessions to Redis by token, plus the reserved `"default"` key; token generation is a pure, TDD'd helper (cryptographically random, unguessable) |
-| 12 | Bring-your-own-session endpoint | `POST /api/sessions` accepts a visitor's session in the request body (never URL params — see Known Risk Areas), returns a bearer token; verified via `scripts/test-sessions.ts` against real Redis |
-| 13 | Admin default-session refresh | `POST /api/sessions/default`, guarded by `ADMIN_SECRET` (constant-time compared), updates the shared default session in Redis — refreshing it no longer requires `vercel env add` + redeploy |
-| 14 | Wired into the pipeline | `api/profile.ts` resolves the session from `Authorization: Bearer <token>` first, falling back to the Redis-stored `"default"`, falling back to the original env vars only if Redis is unreachable |
-| 15 | Docs updated | README documents the new endpoints, the security handling (body/header only, never URL; no logging of secrets), and the plaintext-at-rest limitation, stated plainly |
+| 11 | ✅ Session store | `src/sessions/sessionStore.ts` reads/writes LinkedIn sessions to Redis by token, plus the reserved `"default"` key; token generation is a pure, TDD'd helper (cryptographically random, unguessable) |
+| 12 | ✅ Bring-your-own-session endpoint | `POST /api/sessions` accepts a visitor's session in the request body (never URL params — see Known Risk Areas), returns a bearer token; verified via `scripts/test-sessions.ts` against real Redis |
+| 13 | ✅ Admin default-session refresh | `POST /api/sessions/default`, guarded by `ADMIN_SECRET` (constant-time compared), updates the shared default session in Redis — refreshing it no longer requires `vercel env add` + redeploy |
+| 14 | ✅ Wired into the pipeline | `api/profile.ts` resolves the session from `Authorization: Bearer <token>` first, falling back to the Redis-stored `"default"`, falling back to the original env vars only if Redis is unreachable |
+| 15 | ✅ Docs updated | README documents the new endpoints, the security handling (body/header only, never URL; no logging of secrets), and the plaintext-at-rest limitation, stated plainly |
+
+Verified live end-to-end on 2026-08-30: an admin refresh via `POST /api/sessions/default` updated the deployed session with no redeploy, and both the refreshed default and a visitor-submitted bearer token correctly returned real profile data (200) from the live production URL.
 
 ## Development Philosophy
 
