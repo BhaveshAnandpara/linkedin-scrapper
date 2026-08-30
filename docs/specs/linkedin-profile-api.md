@@ -1,5 +1,7 @@
 # LinkedIn Profile API — Specification
 
+> **Status (2026-08-30):** Phase 1 below is complete, deployed, and verified live at https://linkedin-scrapper-taupe.vercel.app. Phase 2 (automated login) remains out of scope and unbuilt. Phase 3 (Bring-Your-Own-Session) was added below the same day as a new stretch goal, worked out via the brainstorming skill after real friction with Phase 1's single shared session — it is a separate concern from Phase 2 and does not touch login automation.
+
 ## Problem Statement
 
 I need to submit a working solution to Tross's hiring challenge by 2026-08-31: a hosted API that accepts a LinkedIn profile URL and returns structured profile data as JSON. The hiring team explicitly clarified that browser automation is disallowed anywhere in the request-serving path — the solution must reverse-engineer and call LinkedIn's internal endpoints directly over HTTP. I have no existing codebase to build on, a hard deadline, and no reliable way to safely automate LinkedIn's login flow without risking my own account being checkpointed right when I need it working for a demo.
@@ -121,18 +123,74 @@ A good test here exercises external behavior only — given this input, is that 
 - **Everything else is deliberately not covered by an automated test seam.** Session handling, the live profile fetch, and rate limiting all depend on real external, non-deterministic state (a live LinkedIn session, LinkedIn's actual current behavior) that can't be meaningfully mocked without losing signal about whether the real thing works. These are instead verified through standalone verification scripts run against the real LinkedIn API, and an end-to-end smoke test against the deployed URL — a deliberate choice, not a coverage gap.
 - **Prior art:** none — this is a greenfield repo, so this spec's testing approach sets the first precedent for the project.
 
+## Phase 3: Bring-Your-Own-Session (stretch goal, added 2026-08-30)
+
+### Problem Statement
+
+Phase 1's single shared LinkedIn session has two real problems, both discovered through actually operating the deployed API, not hypothetical: (1) the session dies far faster than expected under normal development/testing load — observed expiring multiple times in one day, sometimes within minutes of a fresh capture — and recovery requires a manual redeploy each time; (2) a hiring-team reviewer testing the live API has no way to supply their own LinkedIn session, and no way to refresh the shared one, because they don't have access to this project's Vercel deployment or its environment variables. If the shared session happens to be dead when a reviewer tests the link, they get a hard failure with nothing they can do about it.
+
+### Solution
+
+Let a session live in Redis instead of only in a Vercel env var, addressable in two ways: a reserved slot for the shared/default session (refreshable by the account owner via an admin-guarded endpoint, no redeploy needed), and a per-visitor slot addressable by a bearer token (so a reviewer can submit their own captured session and have their own requests run on it, independent of the shared one). This changes *where* a session comes from and *who* it belongs to — it does not change *how* a session is obtained. No login automation, no browser automation; a human still manually captures `li_at`/`JSESSIONID` from their own real browser login, exactly as in Phase 1. Phase 3 is unrelated to Phase 2 and does not depend on it.
+
+### User Stories
+
+22. As the challenge submitter, I want to refresh my own backend LinkedIn session without a Vercel redeploy, so that recovering from the session dying (which happens often) takes seconds instead of a full deploy cycle.
+23. As a hiring reviewer, I want to be able to submit my own captured LinkedIn session and get a token back, so that I can test the API on my own session if the shared one happens to be down.
+24. As a hiring reviewer holding a token, I want to pass it on my `/api/profile` requests and have them run on my own session, so that my testing doesn't depend on the submitter's account being healthy.
+25. As an API caller with no token, I want requests to keep working exactly as they do today (falling back to the shared session), so that Phase 3 doesn't change the experience for anyone who doesn't opt in.
+26. As the challenge submitter, I want the admin-only refresh endpoint protected by a secret distinct from any visitor-facing credential, so that only I can overwrite the session powering all unauthenticated public traffic.
+27. As the challenge submitter, I want session values to never appear in a URL (query params, logs, browser history, `Referer` headers), so that capturing this data doesn't recreate the exact leak risk this project already had to react to once (a raw cookie pasted into chat).
+28. As the challenge submitter, I want the plaintext-in-Redis limitation stated plainly in the README, so that anyone evaluating this is told the honest risk rather than discovering it themselves.
+29. As the challenge submitter, I want the system to keep working (falling back to env vars) if Redis is ever unreachable, so that Phase 3 is additive and can't take down what Phase 1 already had working.
+
+### Implementation Decisions
+
+**Session store:** A new module owns reading/writing LinkedIn sessions in the existing Upstash Redis instance (the same one already provisioned for rate limiting). Two kinds of entries: visitor sessions, keyed by an opaque, cryptographically random, unguessable token; and one reserved key holding the shared/default session. Entries carry a TTL.
+
+**Bring-your-own-session endpoint:** A public endpoint accepts a visitor's session (`li_at`, `JSESSIONID`, optionally a user agent) in the **request body** — never as URL query params, since a URL leaks into server/CDN access logs, browser history, and third-party `Referer` headers in a way a body doesn't. On success it stores the session under a freshly generated token and returns that token. There is no account system and no token-recovery flow; losing a token just means submitting the session again for a new one.
+
+**Admin default-session refresh endpoint:** Same body shape, but requires a secret (distinct from any visitor-facing value) sent as a header and compared in constant time, and writes to the reserved default key instead of minting a token. This is the account owner's new way to refresh their own session — replacing "update the env var and redeploy" with one authenticated request.
+
+**Session resolution order, for every `/api/profile` request:** (1) if the request carries a bearer token, resolve that visitor's stored session; (2) otherwise, resolve the shared default session from the store; (3) if neither is available (e.g. the store is unreachable, or the default was never set), fall back to the original environment-variable-based session from Phase 1. This ordering is itself the one pure, testable decision this phase introduces — see Testing Decisions.
+
+**Error contract additions:** an unresolvable or unrecognized bearer token maps to the existing `SESSION_EXPIRED` code — the caller-facing meaning is identical ("no usable session"). A malformed bring-your-own-session submission (missing required fields) is a new failure mode not covered by any existing code, and needs its own addition to the shared `ApiErrorCode` union:
+
+```typescript
+type ApiErrorCode =
+  | "INVALID_URL" | "PROFILE_NOT_FOUND" | "PROFILE_PRIVATE"
+  | "SESSION_EXPIRED" | "LOGIN_CHALLENGE" | "LINKEDIN_RATE_LIMITED"
+  | "RATE_LIMITED" | "INTERNAL_ERROR"
+  | "INVALID_SESSION_DATA"; // new: malformed bring-your-own-session submission
+```
+
+The admin endpoint rejecting a wrong/missing secret returns a generic unauthorized response that doesn't hint whether the supplied value was close to correct.
+
+**Security decisions (treated as first-class, not an afterthought — this was explicitly interrogated during brainstorming):** session values and bearer tokens travel only in request bodies and the `Authorization` header, never in a URL. Tokens are generated with a cryptographically secure random source. No code path in this feature logs request bodies or session values. The admin secret is compared in constant time. The one accepted, plainly-documented limitation: session values sit in Redis without any application-level encryption on top of Upstash's own at-rest encryption, so anyone holding the Redis access token could read them.
+
+### Testing Decisions
+
+Same philosophy as Phase 1: test external behavior at the highest-value seam, verify everything touching live external state with standalone scripts rather than mocks that would only prove the mock works.
+
+- **The one pure seam: session-source resolution.** The priority-order decision (token vs. default vs. env-var fallback vs. none available) is a pure function of a small number of inputs (is a token present, does a default exist, does an env-var fallback exist) and is fully enumerable — every combination can be asserted directly, the same way `identifiers.ts` and `errors.ts` are tested today.
+- **Token generation is not a separate seam.** There is nothing meaningful to assert about a random token beyond "it is a string of the expected shape," which isn't worth a dedicated test.
+- **Everything touching real Redis or the two new endpoints end-to-end is verified via a new standalone script**, exercising: a valid bring-your-own-session submission returns a usable token; that token works on `/api/profile`; a malformed submission returns the new error code; a wrong admin secret is rejected. Same rationale and prior art as `scripts/verify-session.ts` and `scripts/test-fetch-profile.ts` from Phase 1.
+
 ## Out of Scope
 
-- **Automated LinkedIn login (Phase 2).** Explicitly deferred. If time remains after the Phase 1 system above is built, deployed, and verified working end-to-end, automated username/password login (with session self-healing on expiry) may be added as a separate, additive piece of work — its own spec/plan if pursued, not covered by this document.
-- **Any browser automation**, at any point in the request-serving path — disallowed by the challenge's explicit clarification.
-- **An API key / authenticated access model** for our own public endpoint — deliberately left open (rate-limiting is the only protection) so reviewers can test it without needing credentials from us.
+- **Automated LinkedIn login (Phase 2).** Explicitly deferred. If time remains after the Phase 1 system above is built, deployed, and verified working end-to-end, automated username/password login (with session self-healing on expiry) may be added as a separate, additive piece of work — its own spec/plan if pursued, not covered by this document. Unrelated to and independent of Phase 3.
+- **Any browser automation**, at any point in the request-serving path — disallowed by the challenge's explicit clarification. This includes Phase 3: nothing in Phase 3 automates a LinkedIn login or drives a browser; it only changes where an already-manually-captured session is stored and how a request selects one.
+- **An API key / authenticated access model** for our own public endpoint — deliberately left open (rate-limiting is the only protection) so reviewers can test it without needing credentials from us. Phase 3's bearer tokens are opt-in, not a requirement to use the API.
+- **The actual browser extension that would auto-capture a visitor's cookie and submit it for them.** Phase 3 as scoped here only builds the backend side (the store, the two endpoints, the resolution logic) — a visitor brings their own session by capturing it manually (DevTools) and submitting it themselves, the same way the project's own operator does. An extension to automate that capture is documented as README future work, not built now: it's the least testable, highest-risk piece (browser extension manifest, permissions, packaging) and Phase 3 already delivers its real value (no more redeploy-to-refresh, reviewers can bring their own session) without it.
+- **A user-account system or token-recovery flow.** A token is a bare bearer credential; losing it just means submitting the session again.
 - **Bulk/search endpoints, LinkedIn write actions (messaging, connecting, etc.)** — the challenge asks only for single-profile read access.
 - **Guaranteed contact info (email, phone)** — LinkedIn restricts this heavily even for authenticated viewers; not a reliable field to promise.
 - **A CI/CD pipeline beyond Vercel's own git-push deploy** — not required by the challenge.
-- **An admin UI or dashboard** — the deliverable is an API, not a product surface.
+- **An admin UI or dashboard** — the deliverable is an API, not a product surface; the admin endpoint is called directly (e.g. via curl/Postman), not through any UI.
 
 ## Further Notes
 
-- Full technical mechanics (exact Voyager endpoint shapes, headers, login flow details for the Phase 2 stretch, file/folder structure, request pipeline, error-handling table) are captured in the earlier Plan-Mode design document; this spec's auth/session sequencing (Phase 1 required / Phase 2 stretch) supersedes that document's original "automated login is primary" framing. `CLAUDE.md` at the repo root reflects the same current framing and should be treated as the up-to-date source of truth alongside this spec.
+- Full technical mechanics (exact Voyager endpoint shapes, headers, login flow details for the Phase 2 stretch, file/folder structure, request pipeline, error-handling table) are captured in the earlier Plan-Mode design document; this spec's auth/session sequencing (Phase 1 required / Phase 2 stretch / Phase 3 stretch) supersedes that document's original "automated login is primary" framing. `CLAUDE.md` at the repo root reflects the same current framing and should be treated as the up-to-date source of truth alongside this spec.
 - This technique violates LinkedIn's User Agreement; the account used is at risk of restriction. The README must state this plainly rather than omit it — this is a hiring-challenge submission, not a product being shipped to real users, so transparency here matters more than polish.
-- Deadline is 2026-08-31. Given that, Phase 1 as scoped above — not Phase 2 — is the actual bar for a complete, submittable solution.
+- Deadline is 2026-08-31. Given that, Phase 1 as scoped above — already complete and deployed — is the actual bar for a complete, submittable solution. Phase 3 is a genuine improvement on top of it, not a requirement; if it doesn't finish in time, Phase 1 stands on its own.
+- Phase 3 exists because of concrete, observed friction (the session dying repeatedly, a reviewer having no recourse) discovered while operating the deployed Phase 1 system on 2026-08-30 — not a speculative feature. The security requirements (body/header only, never URL; constant-time secret comparison; no logging of secrets) were explicitly interrogated by the challenge submitter before this spec was written, prompted directly by an earlier close call in this same project where a raw session cookie was pasted into chat.
