@@ -1,5 +1,7 @@
 # LinkedIn Profile API
 
+> Built with an AI-first approach using Claude Code — the goal was to see if I could complete this entire assignment through AI without touching the code myself.
+
 A hosted API that turns a LinkedIn profile URL into structured JSON: name, headline, location, about, experience, education, skills, certifications, languages, and profile images.
 
 **Live:** https://linkedin-scrapper-taupe.vercel.app
