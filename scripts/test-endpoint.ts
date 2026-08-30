@@ -35,7 +35,12 @@ function mockResponse() {
 }
 
 function mockRequest(query: Record<string, string>): VercelRequest {
-  return { method: "GET", query } as unknown as VercelRequest;
+  return {
+    method: "GET",
+    query,
+    headers: {},
+    socket: { remoteAddress: "127.0.0.1" },
+  } as unknown as VercelRequest;
 }
 
 async function main() {

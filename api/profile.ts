@@ -1,12 +1,13 @@
 // GET /api/profile?url=... — public endpoint, orchestrates the pipeline:
-// validate -> session -> fetch -> parse -> respond. Rate limiting is added
-// in milestone 6, ahead of the session/fetch work.
+// validate -> rate limit -> session -> fetch -> parse -> respond.
 
 import type { VercelRequest, VercelResponse } from "@vercel/node";
 import { getSession } from "../src/linkedin/session.js";
 import { fetchRawProfile, type ProfileFetchError } from "../src/linkedin/profileFetcher.js";
 import { parseProfile } from "../src/linkedin/profileParser.js";
 import { apiError, statusForErrorCode } from "../src/utils/errors.js";
+import { getClientIp } from "../src/utils/ip.js";
+import { checkRateLimit } from "../src/rateLimit/rateLimiter.js";
 import type { ApiErrorCode } from "../src/types/profile.js";
 
 export default async function handler(req: VercelRequest, res: VercelResponse): Promise<void> {
@@ -23,6 +24,18 @@ export default async function handler(req: VercelRequest, res: VercelResponse): 
   if (!profileUrl) {
     respondError(res, "INVALID_URL", "Missing required 'url' query parameter.");
     return;
+  }
+
+  const clientIp = getClientIp(req.headers, req.socket?.remoteAddress);
+  const rateLimitResult = await checkRateLimit(clientIp);
+  if (rateLimitResult.ok && rateLimitResult.limited) {
+    respondError(res, "RATE_LIMITED", "Too many requests. Please try again later.");
+    return;
+  }
+  if (!rateLimitResult.ok) {
+    console.warn(
+      "Rate limiting is not configured (missing UPSTASH_REDIS_REST_URL/UPSTASH_REDIS_REST_TOKEN) — proceeding without it.",
+    );
   }
 
   const sessionResult = getSession();
