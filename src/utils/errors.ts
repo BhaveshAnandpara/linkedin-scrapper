@@ -14,6 +14,7 @@ const STATUS_BY_CODE: Record<ApiErrorCode, number> = {
   LINKEDIN_RATE_LIMITED: 502,
   RATE_LIMITED: 429,
   INTERNAL_ERROR: 500,
+  INVALID_SESSION_DATA: 400,
 };
 
 export function statusForErrorCode(code: ApiErrorCode): number {

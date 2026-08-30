@@ -75,7 +75,8 @@ export type ApiErrorCode =
   | "LOGIN_CHALLENGE"
   | "LINKEDIN_RATE_LIMITED"
   | "RATE_LIMITED"
-  | "INTERNAL_ERROR";
+  | "INTERNAL_ERROR"
+  | "INVALID_SESSION_DATA";
 
 export interface ApiErrorResponse {
   error: {
