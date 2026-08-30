@@ -11,6 +11,66 @@ This is a submission for Tross's hiring challenge. Per the challenge's explicit 
 
 This technique violates LinkedIn's User Agreement. The LinkedIn account whose session powers this API is at real risk of restriction or ban. This is a hiring-challenge submission built to demonstrate the reverse-engineering and system-design work involved — not a product intended for production traffic against real users' accounts. Anyone running this themselves should understand and accept that risk for their own account.
 
+## How to use it
+
+The live API is already deployed — no installation, no `.env`, no local setup needed to just try it. This walks through using it from scratch, including how to get the LinkedIn cookies if you want your own session.
+
+### Step 1: Extract your `li_at` and `JSESSIONID` (only needed for steps 2b/2c below)
+
+You don't need this at all for the simplest case (step 2a) — the deployed API already runs on a shared session. You only need your own cookies if you want to bring your own session or (as the owner) refresh the shared one.
+
+1. Log into [linkedin.com](https://www.linkedin.com) in a normal browser, while already signed in.
+2. Open DevTools (`F12` or right-click → Inspect).
+3. Go to **Application** (Chrome) or **Storage** (Firefox) → **Cookies** → `https://www.linkedin.com`.
+4. Find the row named `li_at` — copy its **Value** column. This is your session token.
+5. Find the row named `JSESSIONID` — copy its **Value** column too (it may include surrounding quotes, e.g. `"ajax:1234567890"` — copy it either with or without the quotes, both work).
+6. Keep both values somewhere private. Treat them like a password — anyone who has them can act as your LinkedIn account through this API.
+
+### Step 2: Call the APIs, in order
+
+**2a. Just fetch a profile (no session of your own needed):**
+```bash
+curl "https://linkedin-scrapper-taupe.vercel.app/api/profile?url=https://www.linkedin.com/in/someone/"
+```
+This is the whole flow for most use — one call, done. It runs on the shared default session. Skip straight here unless you specifically want steps 2b or 2c.
+
+**2b. Bring your own session (optional — use if the shared one is down, or you want isolation):**
+
+_Call these two in order:_
+
+1. Submit your cookies from Step 1, get back a token:
+   ```bash
+   curl -X POST https://linkedin-scrapper-taupe.vercel.app/api/sessions \
+     -H "Content-Type: application/json" \
+     -d '{"liAt": "<your li_at>", "jsessionid": "<your JSESSIONID>"}'
+   ```
+   → `{ "token": "c3321765-8ee0-4e81-bc4b-ddc2be5edaea" }`
+2. Use that token on every profile call, instead of step 2a's plain call:
+   ```bash
+   curl -H "Authorization: Bearer <token from step 1>" \
+     "https://linkedin-scrapper-taupe.vercel.app/api/profile?url=https://www.linkedin.com/in/someone/"
+   ```
+
+**2c. Refresh the shared session (owner only — when it expires):**
+```bash
+curl -X POST https://linkedin-scrapper-taupe.vercel.app/api/sessions/default \
+  -H "Content-Type: application/json" \
+  -H "X-Admin-Secret: <the ADMIN_SECRET value>" \
+  -d '{"liAt": "<fresh li_at>", "jsessionid": "<fresh JSESSIONID>"}'
+```
+Requires the `ADMIN_SECRET` value (only the deployment owner has it). Takes effect immediately for everyone calling step 2a — no redeploy.
+
+### End-to-end example
+
+A reviewer wants to test the API with their own LinkedIn account instead of relying on the shared one:
+
+1. They log into LinkedIn, open DevTools, and copy their `li_at` and `JSESSIONID` (Step 1 above).
+2. They `POST` those to `/api/sessions` (Step 2b.1) and get back a token, e.g. `c3321765-8ee0-4e81-bc4b-ddc2be5edaea`.
+3. They call `GET /api/profile?url=https://www.linkedin.com/in/some-target-profile/` with `Authorization: Bearer c3321765-8ee0-4e81-bc4b-ddc2be5edaea` (Step 2b.2).
+4. The API resolves their token → finds their stored session in Redis → fetches the profile from LinkedIn using *their* cookies, not the shared ones → parses it → returns a `200` with the structured `ProfileResponse` JSON (see the full shape under **API** below).
+5. If they call `/api/profile` again later **without** the `Authorization` header, they're back to using the shared default session — their token only applies when they explicitly send it.
+6. A week later their token expires (7-day TTL). Calling with it now returns `401 SESSION_EXPIRED` — they'd repeat steps 1-2 for a new one.
+
 ## How it works (approach)
 
 - **Auth strategy — manual session only (no automated login).** A LinkedIn session (`li_at` cookie + paired `JSESSIONID` CSRF token) is captured once by a human logging into LinkedIn in a real browser. There is no login flow in the deployed code — nothing resembling a bot logging into LinkedIn ever runs at request time, ever, in any of the three ways a session can reach this API (see below). This was a deliberate scope decision: it trades away the riskiest, most bot-detection-prone part of a project like this (automated login) in favor of putting the available time into the actual profile-fetching and parsing work, which is the part the challenge is actually testing.
