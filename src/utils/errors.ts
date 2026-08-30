@@ -15,6 +15,7 @@ const STATUS_BY_CODE: Record<ApiErrorCode, number> = {
   RATE_LIMITED: 429,
   INTERNAL_ERROR: 500,
   INVALID_SESSION_DATA: 400,
+  UNAUTHORIZED: 401,
 };
 
 export function statusForErrorCode(code: ApiErrorCode): number {
