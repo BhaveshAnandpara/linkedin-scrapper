@@ -8,10 +8,9 @@
 
 import { getSession } from "../src/linkedin/session.js";
 import { voyagerGet } from "../src/linkedin/voyagerClient.js";
+import { DECORATION_ID } from "../src/linkedin/profileFetcher.js";
 
 const KNOWN_PUBLIC_IDENTIFIER = "bhavesh-anandpara";
-const DECORATION_ID =
-  "com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-93";
 
 async function main() {
   const sessionResult = getSession();

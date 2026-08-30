@@ -13,6 +13,30 @@ export interface StoredSession {
   capturedAt: string;
 }
 
+// Shared shape/validation for the request body both session endpoints
+// (POST /api/sessions and POST /api/sessions/default) accept — previously
+// duplicated verbatim in each handler.
+export type SessionSubmission = Omit<StoredSession, "capturedAt">;
+
+export function parseSessionSubmission(body: unknown): SessionSubmission | null {
+  if (!body || typeof body !== "object") {
+    return null;
+  }
+  const { liAt, jsessionid, userAgent } = body as Record<string, unknown>;
+  if (
+    typeof liAt !== "string" ||
+    !liAt.trim() ||
+    typeof jsessionid !== "string" ||
+    !jsessionid.trim()
+  ) {
+    return null;
+  }
+  if (userAgent !== undefined && typeof userAgent !== "string") {
+    return null;
+  }
+  return { liAt, jsessionid, userAgent };
+}
+
 // Visitor tokens: long enough to cover a review window, short enough that
 // Redis doesn't accumulate stale entries forever.
 const VISITOR_TTL_SECONDS = 7 * 24 * 60 * 60;

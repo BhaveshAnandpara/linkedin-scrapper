@@ -7,7 +7,7 @@ import { parseProfileUrl } from "./identifiers.js";
 import { voyagerGet, type VoyagerErrorCode } from "./voyagerClient.js";
 import type { Session } from "./session.js";
 
-const DECORATION_ID =
+export const DECORATION_ID =
   "com.linkedin.voyager.dash.deco.identity.profile.FullProfileWithEntities-93";
 
 export type ProfileFetchError = "INVALID_URL" | VoyagerErrorCode;

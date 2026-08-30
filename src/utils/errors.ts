@@ -3,6 +3,7 @@
 // (TS enforces this via the Record type) so a new error code can't be added
 // to profile.ts without also being given a status.
 
+import type { VercelResponse } from "@vercel/node";
 import type { ApiErrorCode, ApiErrorResponse } from "../types/profile.js";
 
 const STATUS_BY_CODE: Record<ApiErrorCode, number> = {
@@ -12,6 +13,7 @@ const STATUS_BY_CODE: Record<ApiErrorCode, number> = {
   SESSION_EXPIRED: 401,
   LOGIN_CHALLENGE: 401,
   LINKEDIN_RATE_LIMITED: 502,
+  LINKEDIN_AT_CAPACITY: 503,
   RATE_LIMITED: 429,
   INTERNAL_ERROR: 500,
   INVALID_SESSION_DATA: 400,
@@ -24,4 +26,8 @@ export function statusForErrorCode(code: ApiErrorCode): number {
 
 export function apiError(code: ApiErrorCode, message: string): ApiErrorResponse {
   return { error: { code, message } };
+}
+
+export function respondError(res: VercelResponse, code: ApiErrorCode, message: string): void {
+  res.status(statusForErrorCode(code)).json(apiError(code, message));
 }

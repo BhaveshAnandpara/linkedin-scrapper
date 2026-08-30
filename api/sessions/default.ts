@@ -7,22 +7,28 @@
 // in constant time.
 
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { storeDefaultSession } from "../../src/sessions/sessionStore.js";
+import { storeDefaultSession, parseSessionSubmission } from "../../src/sessions/sessionStore.js";
 import { verifyAdminSecret } from "../../src/utils/adminSecret.js";
-import { apiError, statusForErrorCode } from "../../src/utils/errors.js";
-import type { ApiErrorCode } from "../../src/types/profile.js";
-
-interface SessionSubmission {
-  liAt: string;
-  jsessionid: string;
-  userAgent?: string;
-}
+import { apiError, respondError } from "../../src/utils/errors.js";
+import { getClientIp } from "../../src/utils/ip.js";
+import { checkSessionRateLimit, shouldFailClosed } from "../../src/rateLimit/rateLimiter.js";
 
 export default async function handler(req: VercelRequest, res: VercelResponse): Promise<void> {
   if (req.method !== "POST") {
     res
       .status(405)
       .json(apiError("INVALID_SESSION_DATA", "Only POST is supported on this endpoint."));
+    return;
+  }
+
+  const clientIp = getClientIp(req.headers, req.socket?.remoteAddress);
+  const rateLimitResult = await checkSessionRateLimit(clientIp);
+  if (rateLimitResult.ok && rateLimitResult.limited) {
+    respondError(res, "RATE_LIMITED", "Too many requests. Please try again later.");
+    return;
+  }
+  if (!rateLimitResult.ok && shouldFailClosed(process.env.VERCEL_ENV)) {
+    respondError(res, "INTERNAL_ERROR", "Rate limiting is not configured on this server.");
     return;
   }
 
@@ -33,7 +39,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse): 
     return;
   }
 
-  const submission = parseSubmission(req.body);
+  const submission = parseSessionSubmission(req.body);
   if (!submission) {
     respondError(
       res,
@@ -50,27 +56,4 @@ export default async function handler(req: VercelRequest, res: VercelResponse): 
   }
 
   res.status(200).json({ ok: true });
-}
-
-function parseSubmission(body: unknown): SessionSubmission | null {
-  if (!body || typeof body !== "object") {
-    return null;
-  }
-  const { liAt, jsessionid, userAgent } = body as Record<string, unknown>;
-  if (
-    typeof liAt !== "string" ||
-    !liAt.trim() ||
-    typeof jsessionid !== "string" ||
-    !jsessionid.trim()
-  ) {
-    return null;
-  }
-  if (userAgent !== undefined && typeof userAgent !== "string") {
-    return null;
-  }
-  return { liAt, jsessionid, userAgent };
-}
-
-function respondError(res: VercelResponse, code: ApiErrorCode, message: string): void {
-  res.status(statusForErrorCode(code)).json(apiError(code, message));
 }
